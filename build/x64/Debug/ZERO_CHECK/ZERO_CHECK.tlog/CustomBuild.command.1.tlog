@@ -1,0 +1,10 @@
+^C:\USERS\OSKARK1C\DESKTOP\KAR_OSK_INF-MAIN\BUILD\CMAKEFILES\BFD3484B60923374214F772710D55035\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_inf-main -BC:/Users/oskark1c/Desktop/kar_osk_inf-main/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/oskark1c/Desktop/kar_osk_inf-main/build/sci_po.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

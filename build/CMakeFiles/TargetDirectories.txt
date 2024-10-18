@@ -1,0 +1,4 @@
+C:/Users/oskark1c/Desktop/kar_osk_inf-main/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/oskark1c/Desktop/kar_osk_inf-main/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/oskark1c/Desktop/kar_osk_inf-main/build/2024_09_24_funkcje_matematyczne/CMakeFiles/funkcje_matematyczne.dir
+C:/Users/oskark1c/Desktop/kar_osk_inf-main/build/2024_10_18_cmake_template/CMakeFiles/cmake_template.dir
