@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/funkcje_matematyczne.dir/main.cpp.o -o funkcje_matematyczne 

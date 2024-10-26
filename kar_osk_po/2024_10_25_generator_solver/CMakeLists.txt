@@ -1,2 +1,0 @@
-add_executable(2024_10_25_generator_solver)
-target_sources(2024_10_25_generator_solver PUBLIC ./main.cpp)

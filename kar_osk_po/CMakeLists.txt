@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.20)
-project(sci_po)
-
-add_subdirectory(2024_09_24_funkcje_matematyczne)
-add_subdirectory(2024_10_25_generator_solver)
