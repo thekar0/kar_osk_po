@@ -1,0 +1,101 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "2024_09_24_funkcje_matematyczne",
+					"jsonFile" : "directory-2024_09_24_funkcje_matematyczne-Debug-ab7cbd6ae68304623f9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_09_24_funkcje_matematyczne",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "2024_10_25_generator_solver",
+					"jsonFile" : "directory-2024_10_25_generator_solver-Debug-cf3b840df4592823343c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_10_25_generator_solver",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "sci_po",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "2024_10_25_generator_solver::@9e890f0f4265738652e4",
+					"jsonFile" : "target-2024_10_25_generator_solver-Debug-78937745daeada1755d2.json",
+					"name" : "2024_10_25_generator_solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "funkcje_matematyczne::@1d9c081a7a198993a8e5",
+					"jsonFile" : "target-funkcje_matematyczne-Debug-efe4bc9af16ea98ca016.json",
+					"name" : "funkcje_matematyczne",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kar0/Documents/kar_osk_po/build",
+		"source" : "/home/kar0/Documents/kar_osk_po"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

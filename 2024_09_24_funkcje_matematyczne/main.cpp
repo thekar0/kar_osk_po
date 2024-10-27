@@ -27,7 +27,7 @@ int main() {
         std::cout << "Second x: " <<  answer2 << "\n";
     }
     else if (delta == 0) {
-        float answer1 = ((b * -1) + delta) / 2 * a;;
+        float answer1 = (b * -1) / 2 * a;
         std::cout << "\nOnly x: " << answer1 << "\n";
     }
     return 0;
