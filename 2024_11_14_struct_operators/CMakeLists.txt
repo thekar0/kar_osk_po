@@ -1,0 +1,2 @@
+add_executable(2024_11_14_struct_operators)
+target_sources(2024_11_14_struct_operators PUBLIC ./main.cpp)

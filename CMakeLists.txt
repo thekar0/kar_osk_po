@@ -3,3 +3,4 @@ project(sci_po)
 
 add_subdirectory(2024_09_24_funkcje_matematyczne)
 add_subdirectory(2024_10_25_generator_solver)
+add_subdirectory(2024_11_14_struct_operators)
