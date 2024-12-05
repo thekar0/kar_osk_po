@@ -1,0 +1,10 @@
+41 multiplication 34 = 1394
+0 modulo 24 = 0
+78 division 62 = 1
+64 addition 45 = 109
+81 multiplication 61 = 4941
+91 addition 42 = 133
+27 subtraction 91 = -64
+4 multiplication 53 = 212
+92 multiplication 21 = 1932
+16 division 95 = 0

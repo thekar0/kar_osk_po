@@ -148,6 +148,9 @@
 		},
 		{
 			"path" : "2024_11_14_struct_operators/CMakeLists.txt"
+		},
+		{
+			"path" : "2024_11_28_associative_arrays/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

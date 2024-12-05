@@ -20,16 +20,13 @@ struct Object
 int main()
 {
     std::ofstream file("data.txt");
-
     std::string operators[5] = {"addition", "subtraction", "multiplication", "division", "modulo"};
-
     for(int i = 0; i < 10; i++)
     {
         Object object;
         object.a = rand() % 100;
         object.op = operators[rand() % 5];
         object.b = rand() % 100;
-        
         if(object.op == "addition")
         {
             object.result = object.a + object.b;
@@ -64,10 +61,8 @@ int main()
                 object.result = 0;
             }
         }
-
         file << object;
     }
-
     file.close();
     return 0;
-}
+    }

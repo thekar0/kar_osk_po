@@ -1,0 +1,2 @@
+add_executable(2024_11_28_associative_arrays)
+target_sources(2024_11_28_associative_arrays PUBLIC ./main.cpp)
