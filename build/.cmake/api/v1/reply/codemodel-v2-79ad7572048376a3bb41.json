@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -21,8 +22,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						2,
-						3
+						3,
+						4
 					]
 				},
 				{
@@ -37,7 +38,7 @@
 					"source" : "2024_09_24_funkcje_matematyczne",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -69,6 +70,21 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "2024_12_05_zadanie_23",
+					"jsonFile" : "directory-2024_12_05_zadanie_23-Debug-359151129f3d1893b5f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_12_05_zadanie_23",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Debug",
@@ -80,7 +96,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "sci_po",
 					"targetIndexes" : 
@@ -89,7 +106,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -110,9 +128,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "2024_12_05_zadanie_23::@a29fb848b9baf1249360",
+					"jsonFile" : "target-2024_12_05_zadanie_23-Debug-f3b68648d2e134bf4252.json",
+					"name" : "2024_12_05_zadanie_23",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-6e75546441d8cda48346.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-14051d72a9a616b7f172.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -141,7 +166,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -152,8 +178,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						2,
-						3
+						3,
+						4
 					]
 				},
 				{
@@ -168,7 +194,7 @@
 					"source" : "2024_09_24_funkcje_matematyczne",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -200,6 +226,21 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "2024_12_05_zadanie_23",
+					"jsonFile" : "directory-2024_12_05_zadanie_23-Release-359151129f3d1893b5f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_12_05_zadanie_23",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Release",
@@ -211,7 +252,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "sci_po",
 					"targetIndexes" : 
@@ -220,7 +262,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -241,9 +284,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "2024_12_05_zadanie_23::@a29fb848b9baf1249360",
+					"jsonFile" : "target-2024_12_05_zadanie_23-Release-d83d039466df103aac96.json",
+					"name" : "2024_12_05_zadanie_23",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-6e75546441d8cda48346.json",
+					"jsonFile" : "target-ALL_BUILD-Release-14051d72a9a616b7f172.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -272,7 +322,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -283,8 +334,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						2,
-						3
+						3,
+						4
 					]
 				},
 				{
@@ -299,7 +350,7 @@
 					"source" : "2024_09_24_funkcje_matematyczne",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -331,6 +382,21 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "2024_12_05_zadanie_23",
+					"jsonFile" : "directory-2024_12_05_zadanie_23-MinSizeRel-359151129f3d1893b5f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_12_05_zadanie_23",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "MinSizeRel",
@@ -342,7 +408,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "sci_po",
 					"targetIndexes" : 
@@ -351,7 +418,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -372,9 +440,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "2024_12_05_zadanie_23::@a29fb848b9baf1249360",
+					"jsonFile" : "target-2024_12_05_zadanie_23-MinSizeRel-e7ad87aafa4c2d5655b1.json",
+					"name" : "2024_12_05_zadanie_23",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6e75546441d8cda48346.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-14051d72a9a616b7f172.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -403,7 +478,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -414,8 +490,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						2,
-						3
+						3,
+						4
 					]
 				},
 				{
@@ -430,7 +506,7 @@
 					"source" : "2024_09_24_funkcje_matematyczne",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -462,6 +538,21 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "2024_12_05_zadanie_23",
+					"jsonFile" : "directory-2024_12_05_zadanie_23-RelWithDebInfo-359151129f3d1893b5f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_12_05_zadanie_23",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "RelWithDebInfo",
@@ -473,7 +564,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "sci_po",
 					"targetIndexes" : 
@@ -482,7 +574,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -503,9 +596,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "2024_12_05_zadanie_23::@a29fb848b9baf1249360",
+					"jsonFile" : "target-2024_12_05_zadanie_23-RelWithDebInfo-ae2cdf585dc9a88d4f5e.json",
+					"name" : "2024_12_05_zadanie_23",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6e75546441d8cda48346.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-14051d72a9a616b7f172.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},

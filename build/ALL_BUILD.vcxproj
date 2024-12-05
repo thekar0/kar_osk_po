@@ -181,6 +181,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{589F4F8A-8AF2-3C43-B426-6E66967463C5}</Project>
       <Name>2024_11_14_struct_operators</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_12_05_zadanie_23\2024_12_05_zadanie_23.vcxproj">
+      <Project>{1CCDA5B8-AB03-3296-9ED4-8FACBF2BAD72}</Project>
+      <Name>2024_12_05_zadanie_23</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\funkcje_matematyczne.vcxproj">
       <Project>{2E143002-9383-338F-B86A-E314DC287324}</Project>
       <Name>funkcje_matematyczne</Name>

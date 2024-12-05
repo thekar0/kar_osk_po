@@ -3,3 +3,4 @@ C:/Users/oskark1c/Desktop/kar_osk_po/build/CMakeFiles/ZERO_CHECK.dir
 C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/CMakeFiles/funkcje_matematyczne.dir
 C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_10_25_generator_solver/CMakeFiles/2024_10_25_generator_solver.dir
 C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/CMakeFiles/2024_11_14_struct_operators.dir
+C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_12_05_zadanie_23/CMakeFiles/2024_12_05_zadanie_23.dir
