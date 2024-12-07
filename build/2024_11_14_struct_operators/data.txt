@@ -1,0 +1,10 @@
+83 subtraction 77 = 6
+15 division 35 = 0
+86 multiplication 49 = 4214
+21 multiplication 27 = 567
+90 modulo 63 = 27
+26 addition 26 = 52
+72 subtraction 11 = 61
+68 multiplication 29 = 1972
+82 addition 62 = 144
+23 multiplication 35 = 805
