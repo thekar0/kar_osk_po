@@ -2,11 +2,25 @@
 {
   "directory": "/home/kar0/Documents/kar_osk_po/build/2024_09_24_funkcje_matematyczne",
   "command": "/usr/bin/c++   -g -o CMakeFiles/funkcje_matematyczne.dir/main.cpp.o -c /home/kar0/Documents/kar_osk_po/2024_09_24_funkcje_matematyczne/main.cpp",
-  "file": "/home/kar0/Documents/kar_osk_po/2024_09_24_funkcje_matematyczne/main.cpp"
+  "file": "/home/kar0/Documents/kar_osk_po/2024_09_24_funkcje_matematyczne/main.cpp",
+  "output": "2024_09_24_funkcje_matematyczne/CMakeFiles/funkcje_matematyczne.dir/main.cpp.o"
 },
 {
   "directory": "/home/kar0/Documents/kar_osk_po/build/2024_10_25_generator_solver",
   "command": "/usr/bin/c++   -g -o CMakeFiles/2024_10_25_generator_solver.dir/main.cpp.o -c /home/kar0/Documents/kar_osk_po/2024_10_25_generator_solver/main.cpp",
-  "file": "/home/kar0/Documents/kar_osk_po/2024_10_25_generator_solver/main.cpp"
+  "file": "/home/kar0/Documents/kar_osk_po/2024_10_25_generator_solver/main.cpp",
+  "output": "2024_10_25_generator_solver/CMakeFiles/2024_10_25_generator_solver.dir/main.cpp.o"
+},
+{
+  "directory": "/home/kar0/Documents/kar_osk_po/build/2024_11_14_struct_operators",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/2024_11_14_struct_operators.dir/main.cpp.o -c /home/kar0/Documents/kar_osk_po/2024_11_14_struct_operators/main.cpp",
+  "file": "/home/kar0/Documents/kar_osk_po/2024_11_14_struct_operators/main.cpp",
+  "output": "2024_11_14_struct_operators/CMakeFiles/2024_11_14_struct_operators.dir/main.cpp.o"
+},
+{
+  "directory": "/home/kar0/Documents/kar_osk_po/build/2024_12_05_zadanie_23",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/2024_12_05_zadanie_23.dir/main.cpp.o -c /home/kar0/Documents/kar_osk_po/2024_12_05_zadanie_23/main.cpp",
+  "file": "/home/kar0/Documents/kar_osk_po/2024_12_05_zadanie_23/main.cpp",
+  "output": "2024_12_05_zadanie_23/CMakeFiles/2024_12_05_zadanie_23.dir/main.cpp.o"
 }
 ]

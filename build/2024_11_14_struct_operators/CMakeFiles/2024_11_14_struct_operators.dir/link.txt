@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/2024_11_14_struct_operators.dir/main.cpp.o -o 2024_11_14_struct_operators
