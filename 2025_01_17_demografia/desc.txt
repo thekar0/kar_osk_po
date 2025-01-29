@@ -1,0 +1,32 @@
+W pliku demografia.txt znajdują się informacje o urodzeniach, zgonach i ruchu
+naturalnym ludności w Polsce w roku 2009, w podziale na województwa i powiaty.
+
+Opis kolumn:
+powiat	wojewodztwo	ludnosc_ogolem	wsp_urodzen	wsp_zgonow	saldo_migracji
+
+Kolumny są odzielone tabulatorem (tab, '\t'). Fragment pliku demografia.txt:
+aleksandrowski	kujawsko-pomorskie	55336	11,3	11,3	0,8
+augustowski	podlaskie	58763	10,4	10,5	-1,1
+bartoszycki	warminsko-mazurskie	60128	10,9	10,3	-6,1
+
+
+Zadanie 1.
+Podaj liczbę powiatów należących do województwa mazowieckiego, w których saldo migracji było ujemne.
+
+Zadanie 2.
+Współczynnik przyrostu naturalnego to różnica pomiędzy współczynnikiem urodzeń
+a współczynnikiem zgonów. Utwórz zestawienie 10 powiatów o największym współczynniku
+przyrostu naturalnego zawierające nazwę powiatu i współczynnik przyrostu naturalnego.
+Zestawienie uporządkuj alfabetycznie.
+
+Zadanie 3.
+Podaj nazwy czterech województw o największej liczbie ludności oraz liczbę ludności w tych
+województwach.
+
+Zadanie 4.
+Współczynnik urodzeń to liczba urodzeń na 1000 mieszkańców, czyli:
+wsp_urodzen = liczba_urodzen / ludnosc_ogolem * 1000
+Na podstawie podanej liczby ludności każdego powiatu (ludność ogółem) oraz współczynnika
+urodzeń w tym powiecie wykonaj dla województwa opolskiego zestawienie powiatów oraz
+liczby urodzeń w 2009 roku w każdym powiecie. Obliczoną liczbę urodzeń zaokrąglij w dół
+do najbliższej liczby całkowitej. Zestawienie posortuj alfabetycznie.

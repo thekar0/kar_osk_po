@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2E143002-9383-338F-B86A-E314DC287324}</ProjectGuid>
+    <ProjectGuid>{82DA3F6E-4EDE-352F-927F-055EF7AA7D43}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>win32</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\okar2\Projects\kar_osk_po\build\2024_09_24_funkcje_matematyczne\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">funkcje_matematyczne.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">funkcje_matematyczne</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\okar2\Projects\kar_osk_po\build\2024_09_24_funkcje_matematyczne\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">funkcje_matematyczne.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">funkcje_matematyczne</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\okar2\Projects\kar_osk_po\build\2024_09_24_funkcje_matematyczne\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">funkcje_matematyczne.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">funkcje_matematyczne</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\okar2\Projects\kar_osk_po\build\2024_09_24_funkcje_matematyczne\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">funkcje_matematyczne.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">funkcje_matematyczne</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
@@ -116,8 +116,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/Debug/funkcje_matematyczne.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/Debug/funkcje_matematyczne.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/Debug/funkcje_matematyczne.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/Debug/funkcje_matematyczne.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -156,8 +156,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/Release/funkcje_matematyczne.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/Release/funkcje_matematyczne.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/Release/funkcje_matematyczne.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/Release/funkcje_matematyczne.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -196,8 +196,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/MinSizeRel/funkcje_matematyczne.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/MinSizeRel/funkcje_matematyczne.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/MinSizeRel/funkcje_matematyczne.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/MinSizeRel/funkcje_matematyczne.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -235,8 +235,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/RelWithDebInfo/funkcje_matematyczne.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/RelWithDebInfo/funkcje_matematyczne.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/RelWithDebInfo/funkcje_matematyczne.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/RelWithDebInfo/funkcje_matematyczne.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -244,11 +244,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\oskark1c\Desktop\kar_osk_po\2024_09_24_funkcje_matematyczne\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\okar2\Projects\kar_osk_po\2024_09_24_funkcje_matematyczne\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/oskark1c/Desktop/kar_osk_po/2024_09_24_funkcje_matematyczne/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/okar2/Projects/kar_osk_po/2024_09_24_funkcje_matematyczne/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -257,11 +257,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\okar2\Projects\kar_osk_po\build\2024_09_24_funkcje_matematyczne\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/oskark1c/Desktop/kar_osk_po/2024_09_24_funkcje_matematyczne/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/okar2/Projects/kar_osk_po/2024_09_24_funkcje_matematyczne/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -270,11 +270,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\okar2\Projects\kar_osk_po\build\2024_09_24_funkcje_matematyczne\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/oskark1c/Desktop/kar_osk_po/2024_09_24_funkcje_matematyczne/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/okar2/Projects/kar_osk_po/2024_09_24_funkcje_matematyczne/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -283,11 +283,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\okar2\Projects\kar_osk_po\build\2024_09_24_funkcje_matematyczne\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/oskark1c/Desktop/kar_osk_po/2024_09_24_funkcje_matematyczne/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/okar2/Projects/kar_osk_po/2024_09_24_funkcje_matematyczne/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -296,16 +296,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\okar2\Projects\kar_osk_po\build\2024_09_24_funkcje_matematyczne\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\oskark1c\Desktop\kar_osk_po\2024_09_24_funkcje_matematyczne\main.cpp" />
+    <ClCompile Include="C:\Users\okar2\Projects\kar_osk_po\2024_09_24_funkcje_matematyczne\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\oskark1c\Desktop\kar_osk_po\build\ZERO_CHECK.vcxproj">
-      <Project>{254A9866-5FEF-35F1-8CED-509CDC4A1CE2}</Project>
+    <ProjectReference Include="C:\Users\okar2\Projects\kar_osk_po\build\ZERO_CHECK.vcxproj">
+      <Project>{56D0D87F-FD9E-361C-964F-6C01CB895F11}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

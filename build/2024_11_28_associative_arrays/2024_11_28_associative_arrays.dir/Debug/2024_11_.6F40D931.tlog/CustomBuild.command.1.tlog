@@ -1,0 +1,10 @@
+^C:\USERS\OKAR2\PROJECTS\KAR_OSK_PO\2024_11_28_ASSOCIATIVE_ARRAYS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2024_11_28_associative_arrays/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
