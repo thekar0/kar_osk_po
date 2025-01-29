@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+#include <algorithm>
 
 struct linia 
 {
@@ -39,6 +40,17 @@ int zadanie_1 (std::vector <linia> lines)
         }
     }
     return result;
+}
+
+std::vector <linia> zadanie_2 (std::vector <linia> lines)
+{
+    std::vector <linia> result;
+    
+    std::sort(lines.begin(), lines.end(), [](const linia& a, const linia& b) {
+    
+    return (a.wsp_urodzen - a.wsp_zgonow) < (b.wsp_urodzen - b.wsp_zgonow);
+    
+    });
 }
 
 int main()
