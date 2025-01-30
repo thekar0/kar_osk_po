@@ -4,6 +4,8 @@
 #include <sstream>
 #include <vector>
 #include <algorithm>
+#include <map>
+#include <cmath>
 
 struct linia 
 {
@@ -42,15 +44,116 @@ int zadanie_1 (std::vector <linia> lines)
     return result;
 }
 
-std::vector <linia> zadanie_2 (std::vector <linia> lines)
+std::map <std::string, float> zadanie_2 (std::vector <linia> lines)
 {
-    std::vector <linia> result;
+    std::map <std::string, float> result;
+
+    std::string powiaty_w_rankingu[10] = {};
+
+    for (int i = 0; i < 10; i++)
+    {
+        float najwiekszy_przyrost = lines[0].wsp_urodzen - lines[0].wsp_zgonow;
+        std::string najwiekszy_przyrost_owner = "";
+
+        for (linia l : lines)
+        {
+            float przyrost = (l.wsp_urodzen - l.wsp_zgonow);
+            std::string powiat = l.powiat;
+
+            if (przyrost > najwiekszy_przyrost)
+            {
+                bool already_in_ranking = false;
+                for(int j = 0; j < 10; j++)
+                {
+                    if (powiat == powiaty_w_rankingu[j])
+                    {
+                        already_in_ranking = true;
+                    }       
+                }
+                if (already_in_ranking == false)
+                {
+                    najwiekszy_przyrost = przyrost;
+                    najwiekszy_przyrost_owner = powiat;
+                }
+            }
+        }
+
+        powiaty_w_rankingu[i] = najwiekszy_przyrost_owner;
+        result.insert( {najwiekszy_przyrost_owner, najwiekszy_przyrost});
+
+    }
+
+    return result;
+
+}
+
+std::map<std::string, int> zadanie_3 (std::vector <linia> lines)
+{
+    std::map <std::string, int> wojewodztwa_and_ludnosc;
+
+    for (linia l : lines)
+    {
+        wojewodztwa_and_ludnosc[l.wojewodztwo] += l.ludnosc_ogolem;
+    }
+
+    int four_highest[4];
     
-    std::sort(lines.begin(), lines.end(), [](const linia& a, const linia& b) {
-    
-    return (a.wsp_urodzen - a.wsp_zgonow) < (b.wsp_urodzen - b.wsp_zgonow);
-    
-    });
+    for (int i = 0; i < 4; i++)
+    {
+        int highest = 0;
+        for ( const auto& pair : wojewodztwa_and_ludnosc )
+        {
+            // std::cout << pair.first << " " << pair.second << "\n";
+            if (pair.second > highest)
+            {
+                bool already_in_ranking = false;
+                for (int j = 0; j < 4; j++)
+                {
+                    if (pair.second == four_highest[j])
+                    {
+                        already_in_ranking = true;
+                    }
+                }
+
+                if (already_in_ranking == false)
+                {
+                    four_highest[i] = pair.second;
+                }
+            }
+        }
+    }
+
+    std::map <std::string, int> result;
+
+    for (const auto& pair : wojewodztwa_and_ludnosc)
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            if (four_highest[i] == pair.second)
+            {
+                result[pair.first] = pair.second;
+            }
+        }
+    }
+
+    return result;
+}
+
+std::map <std::string, int> zadanie_4(std::vector<linia> lines)
+{
+    std::map <std::string, int> result;
+
+    for (linia l : lines)
+    {
+        if (l.wojewodztwo == "opolskie")
+        {
+            int liczba_urodzen = std::round(l.ludnosc_ogolem / 1000 * l.wsp_urodzen);
+
+            result[l.powiat] = liczba_urodzen;
+        }
+    }
+
+    return result;
 }
 
 int main()
@@ -67,6 +170,9 @@ int main()
 
             linia l;
 
+            std::replace(split_line[3].begin(), split_line[3].end(), ',', '.');
+            std::replace(split_line[4].begin(), split_line[4].end(), ',', '.');
+
             l.powiat = split_line[0];
             l.wojewodztwo = split_line[1];
             l.ludnosc_ogolem = std::stoi(split_line[2]);
@@ -77,11 +183,32 @@ int main()
             lines.push_back(l);
         }
 
-        std::cout << zadanie_1(lines);
-
         file.close();
 
-        // std::cout << zadanie_1(lines);
+        // for (linia l : lines)
+        // {
+        //     std::cout << l.powiat << " " << l.wojewodztwo << " " << l.ludnosc_ogolem << " " << l.wsp_urodzen << " " << l.wsp_zgonow << " " << l.saldo_migracji << std::endl;
+        // }
 
+        std::cout << "Zadanie 1: " << "\n\t" << zadanie_1(lines) << "\n";
+
+        std::cout << "Zadanie 2:\n";
+
+        for (const auto& pair : zadanie_2(lines))
+        {
+            std::cout << "\t" << pair.first << " " << pair.second << "\n";
+        }
+
+        std::cout << "Zadanie 3:\n";
+        for (const auto& pair : zadanie_3(lines))
+        {
+            std::cout << "\t" << pair.first << " " << pair.second << "\n";
+        }
+
+        std::cout << "Zadanie 4:\n";
+        for (const auto& pair : zadanie_4(lines))
+        {
+            std::cout << "\t" << pair.first << " " << pair.second << "\n";
+        }
     }
 }
