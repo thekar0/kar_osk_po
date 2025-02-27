@@ -1,0 +1,85 @@
+Zadanie polega na utworzeniu interface, który umożliwi rozwiązanie poniższych zadań
+	- należy wykorzystać funkcję cmake do skopiowania plików
+	- interface zawiera tylko pure virtual methods
+		- load / process / save
+		- pamiętaj o wirtualnym destruktorze
+
+	Poniższe zadania zaimplementuj jako klasa pochodna po interface:
+	W pliku dane.txt znajduje się 200 wierszy. Każdy wiersz zawiera 320 liczb naturalnych z przedziału od 0 do 255,
+	oddzielonych znakami pojedynczego odstępu (spacjami). Przedstawiają one jasności kolejnych pikseli czarno-białego
+	obrazu o wymiarach 320 na 200 pikseli (od 0 – czarny do 255 – biały).
+
+		## Zadanie_1
+		- Podaj jasność najjaśniejszego i jasność najciemniejszego piksela.
+		- Dla danych z pliku przyklad.txt wynikiem jest 255 (najjaśniejszy) i 0 najciemniejszy.
+			- do rozwiązania zadania proponuje wykorzystać strukturę danych std::set
+
+		## Zadanie_2
+		- Podaj, ile wynosi najmniejsza liczba wierszy, które należy usunąć, żeby obraz miał pionową oś symetrii.
+		  Obraz ma pionową oś symetrii, jeśli w każdym wierszu i-ty piksel od lewej strony przyjmuje tę samą
+		  wartość, co i-ty piksel od prawej strony, dla dowolnego 1 ≤ i ≤ 320.
+		- Dla danych z pliku przyklad.txt wynikiem jest 3
+
+		## Zadanie_3
+		- Podaj wartość piksela, który występuje najwięcej i najmniej.
+			- do rozwiązania zadania proponuje wykorzystać strukturę danych std::map
+
+
+	Poniższe zadania zaimplementuj jako kolejna klasa pochodna po interface:
+		https://en.wikipedia.org/wiki/Caesar_cipher
+		- metody mają znajdować się w sekcji prywatnej
+
+		## Zadanie_1
+		- nazwa metody: `is_upper_case`
+		- musi zwracać wartości: `true` lub `false`
+		- musi przyjmować argument o nazwie `character`, jest to znak
+		- implementacja polega na sprawdzeniu, czy argument znajduje się w następującym zakresie: `'A' <= character <= 'Z'`
+
+		## Zadanie_2
+		- nazwa metody: `is_special_character`
+		- musi zwracać wartości: `true` lub `false`
+		- musi przyjmować argument o nazwie `character`, jest to znak
+		- implementacja polega na sprawdzeniu, czy argument jest znakiem spacji (`' '`) lub znakiem nowej linii (`'\n'`)
+
+		## Zadanie_3
+		- nazwa metody: `is_string_valid`
+		- musi zwracać wartości: `true` lub `false`
+		- musi przyjmować argument o nazwie `str`, jest to tablica znaków / ciąg znaków (`std::string`)
+		- implementacja polega na napisaniu pętli `for`, która ocenii, czy znaki są prawidłowe
+		- długość ciagu znaków otrzymasz poprzez wywołanie metody `size`
+		- wykorzystaj napisane funkcje do wyrażeń warunkowych `if`
+		- jeśli natrafisz na znak specjalny, użyj słowa kluczowego `continue`, aby pominąć iterację
+		- jeśli znak nie znajduje się w zakresie, zwróć `false` za pomocą słowa kluczowego `return`
+		- jeśli pętla się zakończy, to zwróć wartość `true` na końcu metody
+
+		## Zadanie_4
+		- nazwa metody: `encryption`
+		- funkcja zwraca: `std::string`
+		- musi przyjmować argumenty o nazwie:
+		- `str`, jest to tablica znaków / ciąg znaków (`std::string`)
+		- `shift`, jest to zmienna informująca o przesunięciu (int)
+		- implementacja polega na napisaniu pętli `for`, która zaszyfruje tekst, który został przekazany jako parametr
+		- pętla musi omijać znaki specjalne, za pomocą metody `is_special_character`
+		- następnie zaimplementuj algorymt, który znajduje się na angielskiej wikipedii
+			- E(x) = (x + shift) % 26
+			- pamiętaj, że x jest znakiem, który powinien zostać ograniczony do zakresu [0, 26)
+
+		## Zadanie_5
+		- nazwa metody: `decryption`
+		- funkcja zwraca: `std::string`
+		- musi przyjmować argumenty o nazwie:
+			- `str`, jest to tablica znaków / ciąg znaków (`std::string`)
+			- `shift`, jest to zmienna informująca o przesunięciu (int)
+		- implementacja polega na napisaniu pętli `for`, która deszyfruje tekst, który został przekazany jako parametr
+		- pętla musi omijać znaki specjalne, za pomocą metody `is_special_character`
+		- następnie zaimplementuj algorymt, który znajduje się na angielskiej wikipedii
+			- D(x) = (x - shift) % 26
+			- pamiętaj, że x jest znakiem, który powinien zostać ograniczony do zakresu [0, 26)
+			- w tym przypadku modulo (%) nie oznacza dzielenia z resztą tylko następujące działania:
+				- jeśli wynik `(x - shift) < 0 ` to (x - shift) + 26
+				- jeśli wynik `(x - shift) > 26` to (x - shift) - 26
+
+		## Zadanie_6
+		W metodzie, która odpowiada za zapisanie wyników, wykorzystaj metody w celu zapisania zaszyfrowanego/odszyfrowanego tekstu:
+			- Zaszyfrowany: `QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD`
+			- Odszyfrowany: `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG`

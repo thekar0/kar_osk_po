@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/okar2/Projects/kar_osk_po
+# Install script for directory: C:/Users/oskark1c/Desktop/kar_osk_po
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,32 +34,37 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/okar2/Projects/kar_osk_po/build/2024_09_24_funkcje_matematyczne/cmake_install.cmake")
+  include("C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_09_24_funkcje_matematyczne/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/okar2/Projects/kar_osk_po/build/2024_10_25_generator_solver/cmake_install.cmake")
+  include("C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_10_25_generator_solver/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/cmake_install.cmake")
+  include("C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/okar2/Projects/kar_osk_po/build/2024_11_28_associative_arrays/cmake_install.cmake")
+  include("C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_28_associative_arrays/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/okar2/Projects/kar_osk_po/build/2024_12_05_zad_23/cmake_install.cmake")
+  include("C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_12_05_zad_23/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/okar2/Projects/kar_osk_po/build/2025_01_17_demografia/cmake_install.cmake")
+  include("C:/Users/oskark1c/Desktop/kar_osk_po/build/2025_01_17_demografia/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/oskark1c/Desktop/kar_osk_po/build/2025_02_27_zad_84/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/okar2/Projects/kar_osk_po/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/oskark1c/Desktop/kar_osk_po/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

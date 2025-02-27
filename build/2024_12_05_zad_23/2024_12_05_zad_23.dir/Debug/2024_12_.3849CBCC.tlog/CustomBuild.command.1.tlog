@@ -1,0 +1,10 @@
+^C:\USERS\OSKARK1C\DESKTOP\KAR_OSK_PO\2024_12_05_ZAD_23\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_12_05_zad_23/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

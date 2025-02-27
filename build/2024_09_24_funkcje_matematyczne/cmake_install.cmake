@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/okar2/Projects/kar_osk_po/2024_09_24_funkcje_matematyczne
+# Install script for directory: C:/Users/oskark1c/Desktop/kar_osk_po/2024_09_24_funkcje_matematyczne
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

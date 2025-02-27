@@ -1,0 +1,10 @@
+Zadanie A: 0
+Zadanie B: 0
+Zadanie C: 0
+Zadanie D: 
+Zadanie E: 
+	50s: 0
+	60s: 0
+	70s: 0
+	80s: 0
+	90s: 0

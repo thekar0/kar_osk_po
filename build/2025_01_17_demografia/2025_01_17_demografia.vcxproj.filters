@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\okar2\Projects\kar_osk_po\2025_01_17_demografia\main.cpp">
+    <ClCompile Include="C:\Users\oskark1c\Desktop\kar_osk_po\2025_01_17_demografia\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\okar2\Projects\kar_osk_po\2025_01_17_demografia\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\oskark1c\Desktop\kar_osk_po\2025_01_17_demografia\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7521CF9B-32F0-3FD4-91BF-A5291E8049F5}</UniqueIdentifier>
+      <UniqueIdentifier>{F01C5A38-8381-3F3D-8146-2D3517AE68F9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/okar2/Projects/kar_osk_po/2024_11_28_associative_arrays
+# Install script for directory: C:/Users/oskark1c/Desktop/kar_osk_po/2024_11_28_associative_arrays
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
