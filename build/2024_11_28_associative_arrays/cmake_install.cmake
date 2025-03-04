@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/oskark1c/Desktop/kar_osk_po/2024_11_28_associative_arrays
+# Install script for directory: C:/Users/okar2/Projects/kar_osk_po/2024_11_28_associative_arrays
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,3 +32,9 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "C:/Users/okar2/Projects/kar_osk_po/build/2024_11_28_associative_arrays/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

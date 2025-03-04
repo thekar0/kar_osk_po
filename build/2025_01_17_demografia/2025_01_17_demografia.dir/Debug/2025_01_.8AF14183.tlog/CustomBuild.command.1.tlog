@@ -1,6 +1,6 @@
 ^C:\USERS\OKAR2\PROJECTS\KAR_OSK_PO\2025_01_17_DEMOGRAFIA\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2025_01_17_demografia/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2025_01_17_demografia/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
