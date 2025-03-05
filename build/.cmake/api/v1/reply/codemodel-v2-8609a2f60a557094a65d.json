@@ -1,0 +1,940 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "2024_09_24_funkcje_matematyczne",
+					"jsonFile" : "directory-2024_09_24_funkcje_matematyczne-Debug-a230463639eeffb0dca9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_09_24_funkcje_matematyczne",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "2024_10_25_generator_solver",
+					"jsonFile" : "directory-2024_10_25_generator_solver-Debug-ab3b08936b6f212a0a0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_10_25_generator_solver",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "2024_11_14_struct_operators",
+					"jsonFile" : "directory-2024_11_14_struct_operators-Debug-76d7d24654373fc9743f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_11_14_struct_operators",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "2024_11_28_associative_arrays",
+					"jsonFile" : "directory-2024_11_28_associative_arrays-Debug-62a62d8ed031ff56936b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_11_28_associative_arrays",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "2024_12_05_zad_23",
+					"jsonFile" : "directory-2024_12_05_zad_23-Debug-a263886149b2b0fd73e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_12_05_zad_23",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "2025_01_17_demografia",
+					"jsonFile" : "directory-2025_01_17_demografia-Debug-a5b6a3afe7fbfd85c965.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_01_17_demografia",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "2025_02_27_zad_84",
+					"jsonFile" : "directory-2025_02_27_zad_84-Debug-db8e8112b2126fa14350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_02_27_zad_84",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "sci_po",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "2024_10_25_generator_solver::@9e890f0f4265738652e4",
+					"jsonFile" : "target-2024_10_25_generator_solver-Debug-9e4dc1ac48f2eb502745.json",
+					"name" : "2024_10_25_generator_solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2024_11_14_struct_operators::@ddac2b8c38cdfcf4cf06",
+					"jsonFile" : "target-2024_11_14_struct_operators-Debug-cab236b7edf03a316ecd.json",
+					"name" : "2024_11_14_struct_operators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "2024_11_28_associative_arrays::@e98c8453638e40538e9a",
+					"jsonFile" : "target-2024_11_28_associative_arrays-Debug-6bd3e0778006624de47d.json",
+					"name" : "2024_11_28_associative_arrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "2024_12_05_zad_23::@a3f1cdfadd51da41f469",
+					"jsonFile" : "target-2024_12_05_zad_23-Debug-505f777a563b66d07454.json",
+					"name" : "2024_12_05_zad_23",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "2025_01_17_demografia::@8c3d8e1bef4979badde3",
+					"jsonFile" : "target-2025_01_17_demografia-Debug-ce32fc0cf2be13a5cf9c.json",
+					"name" : "2025_01_17_demografia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2025_02_27_zad_84::@cfe02f70f778413c11fd",
+					"jsonFile" : "target-2025_02_27_zad_84-Debug-53c8fb06b9ec347202cd.json",
+					"name" : "2025_02_27_zad_84",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-9794a04c03c0438d6078.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-90df77b33d67bfe1134e.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "funkcje_matematyczne::@1d9c081a7a198993a8e5",
+					"jsonFile" : "target-funkcje_matematyczne-Debug-1f8c11cb37972b814b35.json",
+					"name" : "funkcje_matematyczne",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "2024_09_24_funkcje_matematyczne",
+					"jsonFile" : "directory-2024_09_24_funkcje_matematyczne-Release-a230463639eeffb0dca9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_09_24_funkcje_matematyczne",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "2024_10_25_generator_solver",
+					"jsonFile" : "directory-2024_10_25_generator_solver-Release-ab3b08936b6f212a0a0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_10_25_generator_solver",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "2024_11_14_struct_operators",
+					"jsonFile" : "directory-2024_11_14_struct_operators-Release-76d7d24654373fc9743f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_11_14_struct_operators",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "2024_11_28_associative_arrays",
+					"jsonFile" : "directory-2024_11_28_associative_arrays-Release-62a62d8ed031ff56936b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_11_28_associative_arrays",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "2024_12_05_zad_23",
+					"jsonFile" : "directory-2024_12_05_zad_23-Release-a263886149b2b0fd73e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_12_05_zad_23",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "2025_01_17_demografia",
+					"jsonFile" : "directory-2025_01_17_demografia-Release-a5b6a3afe7fbfd85c965.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_01_17_demografia",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "2025_02_27_zad_84",
+					"jsonFile" : "directory-2025_02_27_zad_84-Release-db8e8112b2126fa14350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_02_27_zad_84",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "sci_po",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "2024_10_25_generator_solver::@9e890f0f4265738652e4",
+					"jsonFile" : "target-2024_10_25_generator_solver-Release-702f87a71afcc0a5b2a7.json",
+					"name" : "2024_10_25_generator_solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2024_11_14_struct_operators::@ddac2b8c38cdfcf4cf06",
+					"jsonFile" : "target-2024_11_14_struct_operators-Release-a846345b464071a0cea4.json",
+					"name" : "2024_11_14_struct_operators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "2024_11_28_associative_arrays::@e98c8453638e40538e9a",
+					"jsonFile" : "target-2024_11_28_associative_arrays-Release-3e7b5ca12b9860d4a994.json",
+					"name" : "2024_11_28_associative_arrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "2024_12_05_zad_23::@a3f1cdfadd51da41f469",
+					"jsonFile" : "target-2024_12_05_zad_23-Release-568f2be3e2e0731c5cd0.json",
+					"name" : "2024_12_05_zad_23",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "2025_01_17_demografia::@8c3d8e1bef4979badde3",
+					"jsonFile" : "target-2025_01_17_demografia-Release-24f74d80c2916880cc67.json",
+					"name" : "2025_01_17_demografia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2025_02_27_zad_84::@cfe02f70f778413c11fd",
+					"jsonFile" : "target-2025_02_27_zad_84-Release-66677b9b4e6608f18190.json",
+					"name" : "2025_02_27_zad_84",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-9794a04c03c0438d6078.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-90df77b33d67bfe1134e.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "funkcje_matematyczne::@1d9c081a7a198993a8e5",
+					"jsonFile" : "target-funkcje_matematyczne-Release-034138c5c31321f6b539.json",
+					"name" : "funkcje_matematyczne",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "2024_09_24_funkcje_matematyczne",
+					"jsonFile" : "directory-2024_09_24_funkcje_matematyczne-MinSizeRel-a230463639eeffb0dca9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_09_24_funkcje_matematyczne",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "2024_10_25_generator_solver",
+					"jsonFile" : "directory-2024_10_25_generator_solver-MinSizeRel-ab3b08936b6f212a0a0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_10_25_generator_solver",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "2024_11_14_struct_operators",
+					"jsonFile" : "directory-2024_11_14_struct_operators-MinSizeRel-76d7d24654373fc9743f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_11_14_struct_operators",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "2024_11_28_associative_arrays",
+					"jsonFile" : "directory-2024_11_28_associative_arrays-MinSizeRel-62a62d8ed031ff56936b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_11_28_associative_arrays",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "2024_12_05_zad_23",
+					"jsonFile" : "directory-2024_12_05_zad_23-MinSizeRel-a263886149b2b0fd73e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_12_05_zad_23",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "2025_01_17_demografia",
+					"jsonFile" : "directory-2025_01_17_demografia-MinSizeRel-a5b6a3afe7fbfd85c965.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_01_17_demografia",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "2025_02_27_zad_84",
+					"jsonFile" : "directory-2025_02_27_zad_84-MinSizeRel-db8e8112b2126fa14350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_02_27_zad_84",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "sci_po",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "2024_10_25_generator_solver::@9e890f0f4265738652e4",
+					"jsonFile" : "target-2024_10_25_generator_solver-MinSizeRel-6c784bff6f0f506c39e9.json",
+					"name" : "2024_10_25_generator_solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2024_11_14_struct_operators::@ddac2b8c38cdfcf4cf06",
+					"jsonFile" : "target-2024_11_14_struct_operators-MinSizeRel-b4cf236f953a6afea518.json",
+					"name" : "2024_11_14_struct_operators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "2024_11_28_associative_arrays::@e98c8453638e40538e9a",
+					"jsonFile" : "target-2024_11_28_associative_arrays-MinSizeRel-81b7bf97efaba27c2dc0.json",
+					"name" : "2024_11_28_associative_arrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "2024_12_05_zad_23::@a3f1cdfadd51da41f469",
+					"jsonFile" : "target-2024_12_05_zad_23-MinSizeRel-6e450ba5284129487dfe.json",
+					"name" : "2024_12_05_zad_23",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "2025_01_17_demografia::@8c3d8e1bef4979badde3",
+					"jsonFile" : "target-2025_01_17_demografia-MinSizeRel-800bbea3532187765aaa.json",
+					"name" : "2025_01_17_demografia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2025_02_27_zad_84::@cfe02f70f778413c11fd",
+					"jsonFile" : "target-2025_02_27_zad_84-MinSizeRel-15ded02b2bc0ed35375f.json",
+					"name" : "2025_02_27_zad_84",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9794a04c03c0438d6078.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-90df77b33d67bfe1134e.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "funkcje_matematyczne::@1d9c081a7a198993a8e5",
+					"jsonFile" : "target-funkcje_matematyczne-MinSizeRel-5fbd337a7b0118650ec4.json",
+					"name" : "funkcje_matematyczne",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "2024_09_24_funkcje_matematyczne",
+					"jsonFile" : "directory-2024_09_24_funkcje_matematyczne-RelWithDebInfo-a230463639eeffb0dca9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_09_24_funkcje_matematyczne",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "2024_10_25_generator_solver",
+					"jsonFile" : "directory-2024_10_25_generator_solver-RelWithDebInfo-ab3b08936b6f212a0a0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_10_25_generator_solver",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "2024_11_14_struct_operators",
+					"jsonFile" : "directory-2024_11_14_struct_operators-RelWithDebInfo-76d7d24654373fc9743f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_11_14_struct_operators",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "2024_11_28_associative_arrays",
+					"jsonFile" : "directory-2024_11_28_associative_arrays-RelWithDebInfo-62a62d8ed031ff56936b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_11_28_associative_arrays",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "2024_12_05_zad_23",
+					"jsonFile" : "directory-2024_12_05_zad_23-RelWithDebInfo-a263886149b2b0fd73e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2024_12_05_zad_23",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "2025_01_17_demografia",
+					"jsonFile" : "directory-2025_01_17_demografia-RelWithDebInfo-a5b6a3afe7fbfd85c965.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_01_17_demografia",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "2025_02_27_zad_84",
+					"jsonFile" : "directory-2025_02_27_zad_84-RelWithDebInfo-db8e8112b2126fa14350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_02_27_zad_84",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "sci_po",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "2024_10_25_generator_solver::@9e890f0f4265738652e4",
+					"jsonFile" : "target-2024_10_25_generator_solver-RelWithDebInfo-a3c90e47705934416009.json",
+					"name" : "2024_10_25_generator_solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2024_11_14_struct_operators::@ddac2b8c38cdfcf4cf06",
+					"jsonFile" : "target-2024_11_14_struct_operators-RelWithDebInfo-5f19d92fcfa4581c59b1.json",
+					"name" : "2024_11_14_struct_operators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "2024_11_28_associative_arrays::@e98c8453638e40538e9a",
+					"jsonFile" : "target-2024_11_28_associative_arrays-RelWithDebInfo-3984e7598fe650cf4a38.json",
+					"name" : "2024_11_28_associative_arrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "2024_12_05_zad_23::@a3f1cdfadd51da41f469",
+					"jsonFile" : "target-2024_12_05_zad_23-RelWithDebInfo-e8b69c9f4a09981de8dc.json",
+					"name" : "2024_12_05_zad_23",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "2025_01_17_demografia::@8c3d8e1bef4979badde3",
+					"jsonFile" : "target-2025_01_17_demografia-RelWithDebInfo-678f3ba47fb1dbb4151c.json",
+					"name" : "2025_01_17_demografia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2025_02_27_zad_84::@cfe02f70f778413c11fd",
+					"jsonFile" : "target-2025_02_27_zad_84-RelWithDebInfo-10ea8ff2a93b7969b049.json",
+					"name" : "2025_02_27_zad_84",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9794a04c03c0438d6078.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-90df77b33d67bfe1134e.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "funkcje_matematyczne::@1d9c081a7a198993a8e5",
+					"jsonFile" : "target-funkcje_matematyczne-RelWithDebInfo-03cb4c0b8f291a2fc17e.json",
+					"name" : "funkcje_matematyczne",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/okar2/Projects/kar_osk_po/build",
+		"source" : "C:/Users/okar2/Projects/kar_osk_po"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
