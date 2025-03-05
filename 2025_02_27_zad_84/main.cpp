@@ -126,7 +126,6 @@ class Zadanie_Cezar : public Interface
 
         virtual void load(){}
         virtual void process(){}
-        virtual void save(){}
 
         bool is_upper_case(char character)
         {
@@ -163,9 +162,64 @@ class Zadanie_Cezar : public Interface
             return true;
         }
 
-        std::string encryption()
+        std::string encryption(std::string str, int shift)
         {
-            
+            int n = str.size();
+            std::string result = str;
+
+            for (int i = 0; i < n; i++)
+            {
+                // E(x) = (x + shift) % 26
+                if(!is_special_character(str[i]))
+                {
+                    if (std::islower(str[i])) 
+                    {
+                        result[i] = 'a' + (str[i] - 'a' + shift) % 26;
+                    }
+                    else if (std::isupper(str[i])) 
+                    {
+                        result[i] = 'A' + (str[i] - 'A' + shift) % 26;
+                    }
+                }
+            }
+            return result;
+        }
+
+        std::string decryption(std::string str, int shift)
+        {
+            int n = str.size();
+            std::string result = str;
+        
+            for (int i = 0; i < n; i++) {
+                if (!is_special_character(str[i])) 
+                {
+                    if (std::islower(str[i])) 
+                    {
+                        int new_char = (str[i] - 'a' - shift) % 26;
+                        if (new_char < 0) 
+                        {
+                            new_char += 26;
+                        }
+                        result[i] = 'a' + new_char;
+                    }
+                    else if (std::isupper(str[i])) 
+                    {
+                        int new_char = (str[i] - 'A' - shift) % 26;
+                        if (new_char < 0) 
+                        {
+                            new_char += 26;
+                        }
+                        result[i] = 'A' + new_char;
+                    }
+                }
+            }
+            return result;
+        }
+
+        virtual void save()
+        {
+            std::string encrypted = "QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD";
+            std::string decrypted = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
         }
 };
 
@@ -177,8 +231,7 @@ int main()
     pixele.save();
 
     Zadanie_Cezar cezar;
-    std::cout << "Zadanie 1: " << cezar.is_upper_case('F') << std::endl;
-    std::cout << "Zadanie 2: " << cezar.is_special_character('\n') << std::endl;
-    
+    //std::cout << "Zadanie 1: " << cezar.is_upper_case('F') << std::endl;
+    //std::cout << "Zadanie 2: " << cezar.is_special_character('\n') << std::endl;
     return 0;
 }
