@@ -1,0 +1,51 @@
+Instrukcja: Jak napisać kod do wczytywania liczb z pliku w C++
+Ten przewodnik pomoże Ci krok po kroku napisać program w C++, który wczytuje liczby z pliku tekstowego.
+Pliki tekstowe:
+- task0_col_data.txt
+- task0_row_data.txt
+Każde wczytanie pliku ma zostać zaimplementowany jako osobna funkcja.
+Każdy plik zawiera 10 liczb, które można wczytać, więc w pętli ustaw licznik zawsze na 10.
+
+Krok 1: Dołącz odpowiednie biblioteki
+Aby móc korzystać z operacji wejścia/wyjścia oraz obsługi plików, musimy dodać następujące biblioteki na początku kodu:
+```
+#include <iostream>   // Biblioteka do obsługi wejścia i wyjścia (std::cout, std::cin)
+#include <fstream>    // Biblioteka do obsługi plików (std::fstream)
+#include <vector>     // Biblioteka do dynamicznych tablic (std::vector)
+```
+
+Krok 2: Otwórz plik do odczytu
+Teraz musimy otworzyć plik, aby móc odczytać z niego dane.
+- Używamy obiektu std::fstream, aby otworzyć plik w trybie odczytu (std::ios::in).
+- Jeśli plik nie istnieje lub nie można go otworzyć, wyświetlamy komunikat o błędzie i kończymy działanie funkcji.
+```
+std::fstream file;
+file.open("task_data.txt", std::ios::in);
+```
+
+Krok 3: Wczytaj liczby z pliku
+- Tworzymy dynamiczną tablicę (std::vector<int>), która przechowa liczby.
+- Używamy pętli `for`, aby odczytywać liczby do momentu, kiedy licznik zakończy działanie pętli.
+```
+std::vector<int> data;
+for (int i = 0; i < 10; ++i) {
+    int v;
+    file >> v;
+    data.push_back( v );
+}
+```
+
+Krok 4: Zamknij plik
+Po zakończeniu operacji na pliku, zamykamy go, aby zwolnić zasoby.
+```
+file.close();
+```
+
+Krok 5: Wyświetl wczytane liczby
+Aby upewnić się, że program poprawnie odczytał dane, wypisujemy je na ekran:
+```
+std::cout << "Wczytane liczby:" << std::endl;
+for (int value : data) {
+    std::cout << value << std::endl;
+}
+```

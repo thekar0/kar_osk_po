@@ -1,0 +1,30 @@
+Instrukcja: Jak napisać kod do wczytywania pliku w C++, który zawiera różne typy danych
+Pliki tekstowe:
+- task4_custom_data.txt
+Każde wczytanie pliku ma zostać zaimplementowane jako osobna funkcja.
+
+Krok1. Wczytaj dane, które znajdują się w pliku
+- najlepiej stworzyć odpowiednią strukturę danych, w której pola odpowiadają linią danych (w przyszłości kolejność w strukutrze może być różna)
+```
+struct data_t {
+    int number;
+    std::string text;
+    std::string line;
+    std::vector<int> array_numbers;
+};
+```
+- następnie tworzymy kod, który wczyta plik
+```
+data_t data;
+file >> data.number;
+file >> data.text;
+file >> std::ws;                // specjalna linia (znajdź w internecie i wyświetl znaczenie std::ws jako output aplikacji)
+std::getline(file, data.line);
+for (int i = 0; i < 10; ++i) {
+    int num;
+    file >> num;
+    data.array_numbers.push_back(num);
+}
+```
+
+Krok2. Wyświetl wczytane dane z pliku oraz co robi `std::ws` własnymi słowami

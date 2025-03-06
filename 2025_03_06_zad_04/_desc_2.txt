@@ -1,0 +1,19 @@
+Instrukcja: Jak napisać kod do wczytywania całych wierszy(linia) z pliku w C++
+Wykorzystaj więdzę z zadania _desc_1.txt.
+Pliki tekstowe:
+- task2_data.txt
+Każde wczytanie pliku ma zostać zaimplementowane jako osobna funkcja.
+Każdy plik zawiera 10 słów, które można wczytać, więc w pętli ustaw licznik zawsze na 10.
+
+Krok1. Wczytaj linie z pliku
+Korzystając z funkcji `std::getline()`, która wczyta linię tekstu:
+```
+std::vector<std::string> data;
+for (int i = 0; i < 10; ++i) {
+    std::string v;
+    std::getline(file, v);
+    data.push_back( v );
+}
+```
+
+Krok2. Wyświetl wczytane linie z pliku

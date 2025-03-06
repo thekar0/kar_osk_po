@@ -1,0 +1,4 @@
+1023
+Ciag_znakow
+To jest pelna linia tekstu!
+10 9 8 7 6 5 4 3 2 1

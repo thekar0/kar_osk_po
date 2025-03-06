@@ -1,0 +1,9 @@
+Instrukcja: Jak napisać kod do wczytywania słów z pliku w C++
+Wykorzystaj więdzę z zadania _desc_0.txt i zamień liczbowy typ danych na ciąg znaków (std::string)
+Pamiętaj, aby dołączyć odpowiednie biblioteki (#include <string>)
+Pliki tekstowe:
+- task1_col_data.txt
+- task1_row_data.txt
+Każde wczytanie pliku ma zostać zaimplementowane jako osobna funkcja.
+Każdy plik zawiera 10 słów, które można wczytać, więc w pętli ustaw licznik zawsze na 10.
+Wyświetl wczytane słowa

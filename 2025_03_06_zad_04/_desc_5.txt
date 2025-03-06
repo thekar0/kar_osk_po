@@ -1,0 +1,4 @@
+Instrukcja: wczytaj plik task5_data.txt
+Znając już różne metody wczytywania plików, wczytaj plik jako osobna funkcja.
+podpowiedź: użyj struktury danych oraz tablicy dynamicznej
+w pliku znajduje się 25 wierszy

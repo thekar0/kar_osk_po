@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\oskark1c\Desktop\kar_osk_po\2025_03_06_zad_04\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\oskark1c\Desktop\kar_osk_po\2025_03_06_zad_04\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F01C5A38-8381-3F3D-8146-2D3517AE68F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

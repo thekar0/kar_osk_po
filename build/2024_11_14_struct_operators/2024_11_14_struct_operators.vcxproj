@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{86871769-E80A-3DD0-B7CE-8ECE7196606D}</ProjectGuid>
+    <ProjectGuid>{589F4F8A-8AF2-3C43-B426-6E66967463C5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\okar2\Projects\kar_osk_po\build\2024_11_14_struct_operators\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_14_struct_operators\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">2024_11_14_struct_operators.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">2024_11_14_struct_operators</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\okar2\Projects\kar_osk_po\build\2024_11_14_struct_operators\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_14_struct_operators\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">2024_11_14_struct_operators.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">2024_11_14_struct_operators</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\okar2\Projects\kar_osk_po\build\2024_11_14_struct_operators\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_14_struct_operators\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">2024_11_14_struct_operators.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">2024_11_14_struct_operators</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\okar2\Projects\kar_osk_po\build\2024_11_14_struct_operators\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_14_struct_operators\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">2024_11_14_struct_operators.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">2024_11_14_struct_operators</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -91,11 +91,9 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -118,8 +116,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/Debug/2024_11_14_struct_operators.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/Debug/2024_11_14_struct_operators.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/Debug/2024_11_14_struct_operators.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/Debug/2024_11_14_struct_operators.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -129,14 +127,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -161,8 +156,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/Release/2024_11_14_struct_operators.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/Release/2024_11_14_struct_operators.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/Release/2024_11_14_struct_operators.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/Release/2024_11_14_struct_operators.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -172,14 +167,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -204,8 +196,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/MinSizeRel/2024_11_14_struct_operators.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/MinSizeRel/2024_11_14_struct_operators.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/MinSizeRel/2024_11_14_struct_operators.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/MinSizeRel/2024_11_14_struct_operators.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -215,15 +207,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -246,8 +235,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/RelWithDebInfo/2024_11_14_struct_operators.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/RelWithDebInfo/2024_11_14_struct_operators.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/RelWithDebInfo/2024_11_14_struct_operators.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/RelWithDebInfo/2024_11_14_struct_operators.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -255,11 +244,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\okar2\Projects\kar_osk_po\2024_11_14_struct_operators\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\oskark1c\Desktop\kar_osk_po\2024_11_14_struct_operators\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/okar2/Projects/kar_osk_po/2024_11_14_struct_operators/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/oskark1c/Desktop/kar_osk_po/2024_11_14_struct_operators/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,11 +257,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\okar2\Projects\kar_osk_po\build\2024_11_14_struct_operators\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_14_struct_operators\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/okar2/Projects/kar_osk_po/2024_11_14_struct_operators/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/oskark1c/Desktop/kar_osk_po/2024_11_14_struct_operators/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,11 +270,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\okar2\Projects\kar_osk_po\build\2024_11_14_struct_operators\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_14_struct_operators\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/okar2/Projects/kar_osk_po/2024_11_14_struct_operators/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/oskark1c/Desktop/kar_osk_po/2024_11_14_struct_operators/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,11 +283,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\okar2\Projects\kar_osk_po\build\2024_11_14_struct_operators\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_14_struct_operators\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/okar2/Projects/kar_osk_po/2024_11_14_struct_operators/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/oskark1c/Desktop/kar_osk_po/2024_11_14_struct_operators/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/2024_11_14_struct_operators/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/2024_11_14_struct_operators/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,17 +296,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\okar2\Projects\kar_osk_po\build\2024_11_14_struct_operators\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_14_struct_operators\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\okar2\Projects\kar_osk_po\2024_11_14_struct_operators\main.cpp" />
+    <ClCompile Include="C:\Users\oskark1c\Desktop\kar_osk_po\2024_11_14_struct_operators\main.cpp" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\okar2\Projects\kar_osk_po\build\ZERO_CHECK.vcxproj">
-      <Project>{56D0D87F-FD9E-361C-964F-6C01CB895F11}</Project>
+    <ProjectReference Include="C:\Users\oskark1c\Desktop\kar_osk_po\build\ZERO_CHECK.vcxproj">
+      <Project>{254A9866-5FEF-35F1-8CED-509CDC4A1CE2}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,0 +1,25 @@
+Instrukcja: Jak napisać kod do wczytywania macierzy danych (różne typy danych) z pliku w C++
+Wykorzystaj więdzę z zadania _desc_0.txt oraz _desc_1.txt.
+Pliki tekstowe:
+- task3_matrix_data.txt
+Każdy plik zawiera 7 wierszy, które zawierają 7 liczb.
+Każde wczytanie pliku ma zostać zaimplementowane jako osobna funkcja.
+
+Krok1. Wczytaj liczby, które znajdują się w pliku
+- plik składa się z wierszy liczb, a każdy wiersz zawiera kilka liczb
+- do przechowywania takiej struktury danych należy wykorzystać tablicę 2 wymiarową:
+    - std::vector< std::vector<int> >
+```
+std::vector< std::vector<int> > data;
+for (int j = 0; j < 7; ++j) {
+    std::vector<int> row;
+    for (int i = 0; i < 7; ++i) {
+        int v;
+        file >> v;
+        row.push_back( v );
+    }
+    data.push_back(row);
+}
+```
+
+Krok2. Wyświetl wczytane dane z pliku

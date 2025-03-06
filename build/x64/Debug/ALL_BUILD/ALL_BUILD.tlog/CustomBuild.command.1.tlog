@@ -1,6 +1,6 @@
-^C:\USERS\OKAR2\PROJECTS\KAR_OSK_PO\CMAKELISTS.TXT
+^C:\USERS\OSKARK1C\DESKTOP\KAR_OSK_PO\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/okar2/Projects/kar_osk_po -BC:/Users/okar2/Projects/kar_osk_po/build --check-stamp-file C:/Users/okar2/Projects/kar_osk_po/build/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/oskark1c/Desktop/kar_osk_po -BC:/Users/oskark1c/Desktop/kar_osk_po/build --check-stamp-file C:/Users/oskark1c/Desktop/kar_osk_po/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

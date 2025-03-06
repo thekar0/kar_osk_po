@@ -2,31 +2,34 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\okar2\Projects\kar_osk_po\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\okar2\Projects\kar_osk_po\build\2024_10_25_generator_solver\Debug\2024_10_25_generator_solver.exe</FullPath>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_10_25_generator_solver\Debug\2024_10_25_generator_solver.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\okar2\Projects\kar_osk_po\build\2024_11_14_struct_operators\Debug\2024_11_14_struct_operators.exe</FullPath>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_14_struct_operators\Debug\2024_11_14_struct_operators.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\okar2\Projects\kar_osk_po\build\2024_11_28_associative_arrays\Debug\2024_11_28_associative_arrays.exe</FullPath>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_11_28_associative_arrays\Debug\2024_11_28_associative_arrays.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\okar2\Projects\kar_osk_po\build\2024_12_05_zad_23\Debug\2024_12_05_zad_23.exe</FullPath>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_12_05_zad_23\Debug\2024_12_05_zad_23.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\okar2\Projects\kar_osk_po\build\2025_01_17_demografia\Debug\2025_01_17_demografia.exe</FullPath>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\2025_01_17_demografia\Debug\2025_01_17_demografia.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\okar2\Projects\kar_osk_po\build\2025_02_27_zad_84\Debug\2025_02_27_zad_84.exe</FullPath>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\2025_02_27_zad_84\Debug\2025_02_27_zad_84.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\okar2\Projects\kar_osk_po\build\2024_09_24_funkcje_matematyczne\Debug\funkcje_matematyczne.exe</FullPath>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\2025_03_06_zad_04\Debug\2025_03_06_zad_04.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\okar2\Projects\kar_osk_po\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\Debug\funkcje_matematyczne.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\oskark1c\Desktop\kar_osk_po\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
