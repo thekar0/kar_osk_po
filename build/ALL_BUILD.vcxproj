@@ -201,6 +201,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{67638BC1-0144-3EFC-8D3C-6D7E30D95F30}</Project>
       <Name>2025_03_06_zad_04</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\oskark1c\Desktop\kar_osk_po\build\2025_03_13_zad_44\2025_03_13_zad_44.vcxproj">
+      <Project>{77AA169F-E756-3510-8014-EF14067848F7}</Project>
+      <Name>2025_03_13_zad_44</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\oskark1c\Desktop\kar_osk_po\build\2024_09_24_funkcje_matematyczne\funkcje_matematyczne.vcxproj">
       <Project>{2E143002-9383-338F-B86A-E314DC287324}</Project>
       <Name>funkcje_matematyczne</Name>

@@ -17,19 +17,22 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "funkcje_matematyczne::@1d9c081a7a198993a8e5"
+		},
+		{
 			"id" : "2024_10_25_generator_solver::@9e890f0f4265738652e4"
 		},
 		{
 			"id" : "2024_11_14_struct_operators::@ddac2b8c38cdfcf4cf06"
 		},
 		{
-			"id" : "funkcje_matematyczne::@1d9c081a7a198993a8e5"
-		},
-		{
 			"id" : "2024_11_28_associative_arrays::@e98c8453638e40538e9a"
 		},
 		{
 			"id" : "2024_12_05_zad_23::@a3f1cdfadd51da41f469"
+		},
+		{
+			"id" : "2025_03_13_zad_44::@985edbb7066d4f9f9af1"
 		},
 		{
 			"id" : "2025_01_17_demografia::@8c3d8e1bef4979badde3"

@@ -1,0 +1,42 @@
+Zadanie_0:
+
+Nieparzystym skrótem dodatniej liczby całkowitej n nazwiemy dodatnią liczbę całkowitą m,
+która powstaje przez usunięcie cyfr parzystych z zapisu dziesiętnego liczby n.
+Nieparzysty skrót liczby całkowitej n nie istnieje, gdy jej zapis dziesiętny składa się tylko
+z cyfr parzystych.
+
+Przykład:
+  Nieparzystym skrótem liczby 294762 jest liczba 97.
+  Nieparzystym skrótem liczby 39101 jest liczba 3911.
+  Nieparzysty skrót liczby 224 nie istnieje.
+
+Task_0:
+	Plik skrot.txt zawiera 200 dodatnich liczb całkowitych, mniejszych od 30 000. Każda
+	liczba jest zapisana w osobnym wierszu. Dla co najmniej jednej z tych liczb nie istnieje
+	nieparzysty skrót.
+
+	Napisz funkcję, który wyznaczy liczbę wszystkich liczb z pliku skrot.txt, dla których
+	nie istnieje nieparzysty skrót, oraz poda największą z nich. Odpowiedź zapisz w pliku
+	wyniki_task_0.txt
+
+	Plik skrot_przyklad.txt zawiera 20 liczb mniejszych od 30 000. Dla danych
+	zawartych w pliku skrot_przyklad.txt prawidłową odpowiedzią jest:
+	  2
+	  2428
+	(w pliku są dwie liczby, dla których nie istnieje nieparzysty skrót: 266 i 2428; 2428 jest
+	największą z nich).
+
+Task_1:
+	Plik skrot2.txt zawiera 200 dodatnich liczb całkowitych, mniejszych od 30 000. Każda
+	liczba jest zapisana w osobnym wierszu. Dla każdej z tych liczb istnieje nieparzysty
+	skrót.
+
+	Napisz program, który wypisze te liczby z pliku skrot2.txt, dla których największy
+	wspólny dzielnik liczby i jej nieparzystego skrótu jest równy 7. Odpowiedź zapisz w pliku
+	wyniki_task_1.txt. Twój program powinien wypisać w każdym wierszu wyniku po jednej
+	liczbie z pliku skrot2.txt, dla której jest spełniony powyższy warunek.
+
+	Plik skrot2_przyklad.txt zawiera 20 liczb spełniających warunki zadania. Dla danych
+	zawartych w pliku skrot2_przyklad.txt prawidłową odpowiedzią jest:
+	4872
+	23527
