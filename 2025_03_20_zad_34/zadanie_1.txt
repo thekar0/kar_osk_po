@@ -1,0 +1,41 @@
+Zadanie:
+
+Plik liczby.txt składa się z dwóch wierszy:
+• pierwszy wiersz pliku zawiera 3000 liczb pierwszych z przedziału [2, 2000]
+• drugi wiersz pliku zawiera 20 liczb całkowitych z przedziału [2, 1 000 000 000].
+Liczby w wierszach są rozdzielone znakami spacji.
+
+Do Twojej dyspozycji jest plik liczby_przyklad.txt, który zawiera 200 liczb
+w pierwszym wierszu (są to wyłącznie liczby 2, 3, 5, 7 i 31) oraz 20 liczb w drugim wierszu.
+Odpowiedzi dla danych z tego pliku są umieszczone pod każdym zadaniem.
+
+Task_0:
+  Podaj, ile liczb z pierwszego wiersza jest dzielnikiem jakiejkolwiek liczby spośród liczb
+  z drugiego wiersza.
+
+  Dla pliku liczby_przyklad.txt odpowiedzią jest 199
+  (tylko liczba 31, która występuje raz, nie jest dzielnikiem żadnej z liczb w drugim wierszu).
+
+
+Task_1:
+  Spośród liczb z pierwszego wiersza podaj liczbę, która jest sto pierwszą liczbą w kolejności,
+  licząc od największej po ich uporządkowaniu.
+
+  Przykład: wśród liczb 2, 4, 2, 3, 3, 4 drugą w kolejności, licząc od największej, jest liczba 4.
+  Dla pliku liczby_przyklad.txt odpowiedzią jest 5.
+
+
+Task_2:
+  Znajdź w ciągu liczb z pierwszego wiersza spójny fragment, który zawiera co najmniej 50
+  elementów i którego średnia arytmetyczna jest największa.
+  Jeżeli jest więcej niż jeden taki fragment, wybierz ten, który występuje jako pierwszy w pliku
+  liczby.txt.
+
+  W odpowiedzi wypisz:
+  • znalezioną najwyższą średnią
+  • liczbę elementów ciągu z tą najwyższą średnią
+  • liczbę, która jest pierwszym elementem tego ciągu.
+
+  Dla pliku liczby_przyklad.txt odpowiedzią jest:
+    5,52 50 5
+  (największa średnia to 5,52 dla 50 liczb zaczynających się od liczby 5).

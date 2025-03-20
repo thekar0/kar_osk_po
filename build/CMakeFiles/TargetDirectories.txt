@@ -9,3 +9,4 @@ C:/Users/oskark1c/Desktop/kar_osk_po/build/2025_01_17_demografia/CMakeFiles/2025
 C:/Users/oskark1c/Desktop/kar_osk_po/build/2025_02_27_zad_84/CMakeFiles/2025_02_27_zad_84.dir
 C:/Users/oskark1c/Desktop/kar_osk_po/build/2025_03_06_zad_04/CMakeFiles/2025_03_06_zad_04.dir
 C:/Users/oskark1c/Desktop/kar_osk_po/build/2025_03_13_zad_44/CMakeFiles/2025_03_13_zad_44.dir
+C:/Users/oskark1c/Desktop/kar_osk_po/build/2025_03_20_zad_34/CMakeFiles/2025_03_20_zad_34.dir

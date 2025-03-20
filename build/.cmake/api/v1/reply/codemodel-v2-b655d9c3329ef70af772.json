@@ -16,7 +16,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -27,8 +28,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						8,
-						9
+						9,
+						10
 					]
 				},
 				{
@@ -43,7 +44,7 @@
 					"source" : "2024_09_24_funkcje_matematyczne",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -165,6 +166,21 @@
 					[
 						7
 					]
+				},
+				{
+					"build" : "2025_03_20_zad_34",
+					"jsonFile" : "directory-2025_03_20_zad_34-Debug-48aacb1d0923b0ff6498.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_03_20_zad_34",
+					"targetIndexes" : 
+					[
+						8
+					]
 				}
 			],
 			"name" : "Debug",
@@ -182,7 +198,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"name" : "sci_po",
 					"targetIndexes" : 
@@ -197,7 +214,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -260,9 +278,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "2025_03_20_zad_34::@aadbcfae22bc4e3cda54",
+					"jsonFile" : "target-2025_03_20_zad_34-Debug-5b32611f9b4d4cc20017.json",
+					"name" : "2025_03_20_zad_34",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-66b2bef1cafcc77c9cb4.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-922567618e6d1488ae42.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -297,7 +322,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -308,8 +334,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						8,
-						9
+						9,
+						10
 					]
 				},
 				{
@@ -324,7 +350,7 @@
 					"source" : "2024_09_24_funkcje_matematyczne",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -446,6 +472,21 @@
 					[
 						7
 					]
+				},
+				{
+					"build" : "2025_03_20_zad_34",
+					"jsonFile" : "directory-2025_03_20_zad_34-Release-48aacb1d0923b0ff6498.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_03_20_zad_34",
+					"targetIndexes" : 
+					[
+						8
+					]
 				}
 			],
 			"name" : "Release",
@@ -463,7 +504,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"name" : "sci_po",
 					"targetIndexes" : 
@@ -478,7 +520,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -541,9 +584,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "2025_03_20_zad_34::@aadbcfae22bc4e3cda54",
+					"jsonFile" : "target-2025_03_20_zad_34-Release-03c852b345904e91520c.json",
+					"name" : "2025_03_20_zad_34",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-66b2bef1cafcc77c9cb4.json",
+					"jsonFile" : "target-ALL_BUILD-Release-922567618e6d1488ae42.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -578,7 +628,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -589,8 +640,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						8,
-						9
+						9,
+						10
 					]
 				},
 				{
@@ -605,7 +656,7 @@
 					"source" : "2024_09_24_funkcje_matematyczne",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -727,6 +778,21 @@
 					[
 						7
 					]
+				},
+				{
+					"build" : "2025_03_20_zad_34",
+					"jsonFile" : "directory-2025_03_20_zad_34-MinSizeRel-48aacb1d0923b0ff6498.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_03_20_zad_34",
+					"targetIndexes" : 
+					[
+						8
+					]
 				}
 			],
 			"name" : "MinSizeRel",
@@ -744,7 +810,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"name" : "sci_po",
 					"targetIndexes" : 
@@ -759,7 +826,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -822,9 +890,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "2025_03_20_zad_34::@aadbcfae22bc4e3cda54",
+					"jsonFile" : "target-2025_03_20_zad_34-MinSizeRel-d20db24d0cccbf1fe232.json",
+					"name" : "2025_03_20_zad_34",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-66b2bef1cafcc77c9cb4.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-922567618e6d1488ae42.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -859,7 +934,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -870,8 +946,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						8,
-						9
+						9,
+						10
 					]
 				},
 				{
@@ -886,7 +962,7 @@
 					"source" : "2024_09_24_funkcje_matematyczne",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -1008,6 +1084,21 @@
 					[
 						7
 					]
+				},
+				{
+					"build" : "2025_03_20_zad_34",
+					"jsonFile" : "directory-2025_03_20_zad_34-RelWithDebInfo-48aacb1d0923b0ff6498.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2025_03_20_zad_34",
+					"targetIndexes" : 
+					[
+						8
+					]
 				}
 			],
 			"name" : "RelWithDebInfo",
@@ -1025,7 +1116,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"name" : "sci_po",
 					"targetIndexes" : 
@@ -1040,7 +1132,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -1103,9 +1196,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "2025_03_20_zad_34::@aadbcfae22bc4e3cda54",
+					"jsonFile" : "target-2025_03_20_zad_34-RelWithDebInfo-dcaada2055802ab7081a.json",
+					"name" : "2025_03_20_zad_34",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-66b2bef1cafcc77c9cb4.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-922567618e6d1488ae42.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},

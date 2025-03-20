@@ -166,6 +166,9 @@
 		},
 		{
 			"path" : "2025_03_13_zad_44/CMakeLists.txt"
+		},
+		{
+			"path" : "2025_03_20_zad_34/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
