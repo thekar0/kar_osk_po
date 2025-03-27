@@ -1,0 +1,3 @@
+C:/Users/oskark1c/Desktop/kar_osk_po/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/oskark1c/Desktop/kar_osk_po/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/oskark1c/Desktop/kar_osk_po/build/sci_sfml/CMakeFiles/sci_sfml.dir

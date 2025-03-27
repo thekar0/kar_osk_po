@@ -6,7 +6,7 @@
 std::fstream open_file(std::string filename);
 
 int main() {
-    std::fstream file = open_file("liczby_przyklad.txt");
+    std::fstream file = open_file("liczby.txt");
     
     std::vector<int> row1;
     std::vector<int> row2;

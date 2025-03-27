@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "sfml"
+  ],
+  "overrides":[
+    { "name" : "sfml" , "version" : "2.5.1" }
+  ]
+}
