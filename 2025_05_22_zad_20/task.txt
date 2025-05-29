@@ -1,0 +1,5 @@
+1. Podaj, ile z podanych liczb jest liczbami szczęśliwymi.
+2. W pliku dane.txt znajdź najdłuższy ciąg następujących kolejno po sobie liczb szczęśliwych.
+   Podaj długość ciągu oraz jego pierwszy wyraz.
+3. Niektóre z liczb szczęśliwych są również liczbami pierwszymi. Podaj, ile z podanych liczb to
+   jednocześnie liczba szczęśliwa i liczba pierwsza.
