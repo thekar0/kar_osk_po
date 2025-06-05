@@ -1,62 +1,349 @@
 Fetching registry information from https://github.com/microsoft/vcpkg (HEAD)...
 Detecting compiler hash for triplet x64-windows...
-Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe
-The following packages will be built and installed:
-  * brotli:x64-windows@1.1.0#1 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\4e5b5ae1ad26c80535c893cc0307121f0398549e
-  * bzip2[core,tool]:x64-windows@1.0.8#6 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\2d029da682847c5ebdc54e4dbea001331a02207e
-  * freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\8a2c633dcc14eaabdb31cf4637242f4e3c2f3fa2
-  * libflac[core,stack-protector]:x64-windows@1.4.3#2 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\a92a3397dfb70e6eec94fab7b3665a1288d9f7bd
-  * libogg:x64-windows@1.3.5#2 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\7de72b080f4e8596980840f33de0a62394d99e6b
-  * libpng:x64-windows@1.6.46 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\0074ace75112e0a4ff3465de21e692c07d6e6b5f
-  * libvorbis:x64-windows@1.3.7#3 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\23d11198ff2df7a3af54f1c4645ef71a141f2a85
-  * openal-soft:x64-windows@1.24.2 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\368c76c235972804893059e75da4584486a8a0d0
-    sfml:x64-windows@2.5.1 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\cbd65a448eee418c75a45b437122ffc020ad9c73
-  * stb:x64-windows@2024-07-29#1 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\c362152d1d02973e7b1ce777960f8a6876656560
-  * vcpkg-cmake:x64-windows@2024-04-23 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\e74aa1e8f93278a8e71372f1fa08c3df420eb840
-  * vcpkg-cmake-config:x64-windows@2024-05-23 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\97a63e4bc1a17422ffe4eff71da53b4b561a7841
-  * zlib:x64-windows@1.3.1 -- C:\Users\oskark1c\AppData\Local\vcpkg\registries\git-trees\3f05e04b9aededb96786a911a16193cdb711f0c9
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+The following packages will be rebuilt:
+  * brotli:x64-windows@1.1.0#1 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\4e5b5ae1ad26c80535c893cc0307121f0398549e
+  * bzip2[core,tool]:x64-windows@1.0.8#6 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\2d029da682847c5ebdc54e4dbea001331a02207e
+  * freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\8a2c633dcc14eaabdb31cf4637242f4e3c2f3fa2
+  * libflac[core,stack-protector]:x64-windows@1.4.3#2 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\a92a3397dfb70e6eec94fab7b3665a1288d9f7bd
+  * libogg:x64-windows@1.3.5#2 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\7de72b080f4e8596980840f33de0a62394d99e6b
+  * libpng:x64-windows@1.6.46 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\0074ace75112e0a4ff3465de21e692c07d6e6b5f
+  * libvorbis:x64-windows@1.3.7#3 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\23d11198ff2df7a3af54f1c4645ef71a141f2a85
+  * openal-soft:x64-windows@1.24.2 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\368c76c235972804893059e75da4584486a8a0d0
+    sfml:x64-windows@2.5.1 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\cbd65a448eee418c75a45b437122ffc020ad9c73
+  * stb:x64-windows@2024-07-29#1 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\c362152d1d02973e7b1ce777960f8a6876656560
+  * vcpkg-cmake:x64-windows@2024-04-23 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:x64-windows@2024-05-23 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\97a63e4bc1a17422ffe4eff71da53b4b561a7841
+  * zlib:x64-windows@1.3.1 -- C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\3f05e04b9aededb96786a911a16193cdb711f0c9
 Additional packages (*) will be modified to complete this operation.
-Restored 13 package(s) from C:\Users\oskark1c\AppData\Local\vcpkg\archives in 543 ms. Use --debug to see more details.
-Installing 1/13 stb:x64-windows@2024-07-29#1...
-Elapsed time to handle stb:x64-windows: 12.9 ms
-stb:x64-windows package ABI: e54733a0034564150db1df2fa959cb1c2ae2f2478584ed4cbda067ac2ba16cd2
-Installing 2/13 vcpkg-cmake-config:x64-windows@2024-05-23...
-Elapsed time to handle vcpkg-cmake-config:x64-windows: 18.9 ms
-vcpkg-cmake-config:x64-windows package ABI: 7eb75b3deecfa82919a042d59a1c86d4e9397075116adf41346d9194152e8daf
-Installing 3/13 vcpkg-cmake:x64-windows@2024-04-23...
-Elapsed time to handle vcpkg-cmake:x64-windows: 19.6 ms
-vcpkg-cmake:x64-windows package ABI: 6366b23441c38374c3d1188e10f79f2aebb704eaf48f8d143670963a0b369bd3
-Installing 4/13 openal-soft:x64-windows@1.24.2...
-Elapsed time to handle openal-soft:x64-windows: 27.1 ms
-openal-soft:x64-windows package ABI: eec1f6617a1684c0767f8f3069507d7b48b04e5e336896b32c0f60544b4066e4
-Installing 5/13 libogg:x64-windows@1.3.5#2...
-Elapsed time to handle libogg:x64-windows: 24 ms
-libogg:x64-windows package ABI: 74e484926ef9cc8d050c921e7bdd46c90fa643fae316955aa15dc65262be2fb8
-Installing 6/13 libvorbis:x64-windows@1.3.7#3...
-Elapsed time to handle libvorbis:x64-windows: 28.4 ms
-libvorbis:x64-windows package ABI: ba8b9781f8bd1e90faceb67ceb56264ce9d863c5d0532be92daa249559b2561e
-Installing 7/13 libflac[core,stack-protector]:x64-windows@1.4.3#2...
-Elapsed time to handle libflac:x64-windows: 33.1 ms
-libflac:x64-windows package ABI: b3f1c81d01971708f4211ac4f6f695732d6442cc2bde1b7ff3bdd1e6fba4d52c
-Installing 8/13 zlib:x64-windows@1.3.1...
-Elapsed time to handle zlib:x64-windows: 23.6 ms
-zlib:x64-windows package ABI: 224fbcfb0badf3625243666286c30ca081180c4e2747c50c91a0836c1d68eeba
-Installing 9/13 libpng:x64-windows@1.6.46...
-Elapsed time to handle libpng:x64-windows: 28.2 ms
-libpng:x64-windows package ABI: d19298e2c7a57b9f3338090215c62b9783a95990f80600e49bbd548e3063240b
-Installing 10/13 bzip2[core,tool]:x64-windows@1.0.8#6...
-Elapsed time to handle bzip2:x64-windows: 25.6 ms
-bzip2:x64-windows package ABI: 6242abaee7484ad3a99848e222e1aff07fae21882399ce0fea492d38ea3abf2f
-Installing 11/13 brotli:x64-windows@1.1.0#1...
-Elapsed time to handle brotli:x64-windows: 25.3 ms
-brotli:x64-windows package ABI: 3f59b7c050d79978ef9b79059092632fd05ed4fec72496057898bb5141584317
-Installing 12/13 freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3...
-Elapsed time to handle freetype:x64-windows: 23.3 ms
-freetype:x64-windows package ABI: 5cd8693e5e29a97939803590f07154dafb45f4d9d4d614323f92c95756050502
-Installing 13/13 sfml:x64-windows@2.5.1...
-Elapsed time to handle sfml:x64-windows: 36 ms
-sfml:x64-windows package ABI: 6bfd8163108395f1c4161924e20063786261f72e3a735e0119ed4fb989a8f312
-Total install time: 333 ms
+Restored 0 package(s) from C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\archives in 867 us. Use --debug to see more details.
+Removing 1/26 sfml:x64-windows
+Elapsed time to handle sfml:x64-windows: 51 ms
+Removing 2/26 freetype:x64-windows
+Elapsed time to handle freetype:x64-windows: 60.1 ms
+Removing 3/26 brotli:x64-windows
+Elapsed time to handle brotli:x64-windows: 35.2 ms
+Removing 4/26 bzip2:x64-windows
+Elapsed time to handle bzip2:x64-windows: 26.1 ms
+Removing 5/26 libpng:x64-windows
+Elapsed time to handle libpng:x64-windows: 26.7 ms
+Removing 6/26 zlib:x64-windows
+Elapsed time to handle zlib:x64-windows: 21.1 ms
+Removing 7/26 libflac:x64-windows
+Elapsed time to handle libflac:x64-windows: 32.9 ms
+Removing 8/26 libvorbis:x64-windows
+Elapsed time to handle libvorbis:x64-windows: 30.3 ms
+Removing 9/26 libogg:x64-windows
+Elapsed time to handle libogg:x64-windows: 24.1 ms
+Removing 10/26 openal-soft:x64-windows
+Elapsed time to handle openal-soft:x64-windows: 24.2 ms
+Removing 11/26 vcpkg-cmake:x64-windows
+Elapsed time to handle vcpkg-cmake:x64-windows: 15.5 ms
+Removing 12/26 vcpkg-cmake-config:x64-windows
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 17 ms
+Removing 13/26 stb:x64-windows
+Elapsed time to handle stb:x64-windows: 24.8 ms
+Installing 14/26 stb:x64-windows@2024-07-29#1...
+Building stb:x64-windows@2024-07-29#1...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\c362152d1d02973e7b1ce777960f8a6876656560: info: installing overlay port from here
+-- Using cached nothings-stb-f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/stb/src/4ef78b4e31-bf024d35de.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/nothings-stb-f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz
+-- Using source at C:/vcpkg/buildtrees/stb/src/4ef78b4e31-bf024d35de.clean
+-- Installing: C:/vcpkg/packages/stb_x64-windows/share/stb/FindStb.cmake
+-- Installing: C:/vcpkg/packages/stb_x64-windows/share/stb/vcpkg-cmake-wrapper.cmake
+-- Installing: C:/vcpkg/packages/stb_x64-windows/share/stb/usage
+-- Installing: C:/vcpkg/packages/stb_x64-windows/share/stb/copyright
+-- Performing post-build validation
+Starting submission of stb:x64-windows@2024-07-29#1 to 1 binary cache(s) in the background
+Elapsed time to handle stb:x64-windows: 1.1 s
+stb:x64-windows package ABI: 2bc67e4e689bf4402a2e418af573c34c2a30b3b515ca228b2780f39d3b134392
+Installing 15/26 vcpkg-cmake-config:x64-windows@2024-05-23...
+Building vcpkg-cmake-config:x64-windows@2024-05-23...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\97a63e4bc1a17422ffe4eff71da53b4b561a7841: info: installing overlay port from here
+-- Installing: C:/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of vcpkg-cmake-config:x64-windows@2024-05-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 139 ms
+vcpkg-cmake-config:x64-windows package ABI: be302773da5b8021dcec948360519563145626bca3edb0c62b82faaf3d93e722
+Installing 16/26 vcpkg-cmake:x64-windows@2024-04-23...
+Building vcpkg-cmake:x64-windows@2024-04-23...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\e74aa1e8f93278a8e71372f1fa08c3df420eb840: info: installing overlay port from here
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake:x64-windows@2024-04-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake:x64-windows: 263 ms
+vcpkg-cmake:x64-windows package ABI: 084abcb47007dea0450e91fbfa9ec6fa4cacc8ab36289a1fe9bfbd7abc968f55
+Completed submission of stb:x64-windows@2024-07-29#1 to 1 binary cache(s) in 321 ms
+Installing 17/26 openal-soft:x64-windows@1.24.2...
+Building openal-soft:x64-windows@1.24.2...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\368c76c235972804893059e75da4584486a8a0d0: info: installing overlay port from here
+Downloading https://github.com/kcat/openal-soft/archive/1.24.2.tar.gz -> kcat-openal-soft-1.24.2.tar.gz
+Successfully downloaded kcat-openal-soft-1.24.2.tar.gz
+-- Extracting source C:/vcpkg/downloads/kcat-openal-soft-1.24.2.tar.gz
+-- Using source at C:/vcpkg/buildtrees/openal-soft/src/1.24.2-7879501159.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/openal-soft_x64-windows/lib/pkgconfig/openal.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/vcpkg/packages/openal-soft_x64-windows/debug/lib/pkgconfig/openal.pc
+-- Installing: C:/vcpkg/packages/openal-soft_x64-windows/share/openal-soft/copyright
+-- Performing post-build validation
+Starting submission of openal-soft:x64-windows@1.24.2 to 1 binary cache(s) in the background
+Elapsed time to handle openal-soft:x64-windows: 1.8 min
+openal-soft:x64-windows package ABI: 6dc50926e4aa3a049ec52be31c804e013f2aabb300a3a07f85f01aa2433ccd54
+Completed submission of vcpkg-cmake-config:x64-windows@2024-05-23 to 1 binary cache(s) in 116 ms
+Completed submission of vcpkg-cmake:x64-windows@2024-04-23 to 1 binary cache(s) in 58 ms
+Installing 18/26 libogg:x64-windows@1.3.5#2...
+Building libogg:x64-windows@1.3.5#2...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\7de72b080f4e8596980840f33de0a62394d99e6b: info: installing overlay port from here
+-- Using cached xiph-ogg-v1.3.5.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/libogg/src/v1.3.5-1a4243fef9.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/xiph-ogg-v1.3.5.tar.gz
+-- Using source at C:/vcpkg/buildtrees/libogg/src/v1.3.5-1a4243fef9.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/libogg_x64-windows/lib/pkgconfig/ogg.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/vcpkg/packages/libogg_x64-windows/debug/lib/pkgconfig/ogg.pc
+-- Installing: C:/vcpkg/packages/libogg_x64-windows/share/libogg/copyright
+-- Performing post-build validation
+Starting submission of libogg:x64-windows@1.3.5#2 to 1 binary cache(s) in the background
+Elapsed time to handle libogg:x64-windows: 14 s
+libogg:x64-windows package ABI: eca5e1e95635857f5775a1f153ebcfb2bbb10cd56214478cf4d6961fed97513a
+Completed submission of openal-soft:x64-windows@1.24.2 to 1 binary cache(s) in 4.8 s
+Installing 19/26 libvorbis:x64-windows@1.3.7#3...
+Building libvorbis:x64-windows@1.3.7#3...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\23d11198ff2df7a3af54f1c4645ef71a141f2a85: info: installing overlay port from here
+-- Using cached xiph-vorbis-v1.3.7.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/libvorbis/src/v1.3.7-c32164610e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/xiph-vorbis-v1.3.7.tar.gz
+-- Applying patch 0001-Dont-export-vorbisenc-functions.patch
+-- Applying patch 0002-Fixup-pkgconfig-libs.patch
+-- Applying patch 0003-def-mingw-compat.patch
+-- Applying patch 0004-ogg-find-dependency.patch
+-- Using source at C:/vcpkg/buildtrees/libvorbis/src/v1.3.7-c32164610e.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/libvorbis_x64-windows/lib/pkgconfig/vorbis.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/libvorbis_x64-windows/lib/pkgconfig/vorbisenc.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/libvorbis_x64-windows/lib/pkgconfig/vorbisfile.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/vcpkg/packages/libvorbis_x64-windows/debug/lib/pkgconfig/vorbis.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/libvorbis_x64-windows/debug/lib/pkgconfig/vorbisenc.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/libvorbis_x64-windows/debug/lib/pkgconfig/vorbisfile.pc
+-- Installing: C:/vcpkg/packages/libvorbis_x64-windows/share/libvorbis/usage
+-- Installing: C:/vcpkg/packages/libvorbis_x64-windows/share/libvorbis/copyright
+-- Performing post-build validation
+Starting submission of libvorbis:x64-windows@1.3.7#3 to 1 binary cache(s) in the background
+Elapsed time to handle libvorbis:x64-windows: 9.8 s
+libvorbis:x64-windows package ABI: a5fd35d10616753b4e564ec81d14afbeae63b833e36210efa51026e8c1a65b88
+Completed submission of libogg:x64-windows@1.3.5#2 to 1 binary cache(s) in 152 ms
+Installing 20/26 libflac[core,stack-protector]:x64-windows@1.4.3#2...
+Building libflac[core,stack-protector]:x64-windows@1.4.3#2...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\a92a3397dfb70e6eec94fab7b3665a1288d9f7bd: info: installing overlay port from here
+-- Using cached xiph-flac-1.4.3.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/libflac/src/1.4.3-00043104ae.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/xiph-flac-1.4.3.tar.gz
+-- Applying patch fix-compile-options.patch
+-- Using source at C:/vcpkg/buildtrees/libflac/src/1.4.3-00043104ae.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/libflac_x64-windows/lib/pkgconfig/flac++.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/libflac_x64-windows/lib/pkgconfig/flac.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/vcpkg/packages/libflac_x64-windows/debug/lib/pkgconfig/flac++.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/libflac_x64-windows/debug/lib/pkgconfig/flac.pc
+-- Installing: C:/vcpkg/packages/libflac_x64-windows/share/libflac/copyright
+-- Installing: C:/vcpkg/packages/libflac_x64-windows/share/libflac/usage
+-- Performing post-build validation
+Starting submission of libflac[core,stack-protector]:x64-windows@1.4.3#2 to 1 binary cache(s) in the background
+Elapsed time to handle libflac:x64-windows: 23 s
+libflac:x64-windows package ABI: e0a80951559fb28f2819f27bddbebc428cb3dcd92a7e5052c49486843912a6f9
+Completed submission of libvorbis:x64-windows@1.3.7#3 to 1 binary cache(s) in 384 ms
+Installing 21/26 zlib:x64-windows@1.3.1...
+Building zlib:x64-windows@1.3.1...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\3f05e04b9aededb96786a911a16193cdb711f0c9: info: installing overlay port from here
+-- Using cached madler-zlib-v1.3.1.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/madler-zlib-v1.3.1.tar.gz
+-- Applying patch 0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch
+-- Applying patch 0002-build-static-or-shared-not-both.patch
+-- Applying patch 0003-android-and-mingw-fixes.patch
+-- Using source at C:/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/vcpkg/packages/zlib_x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: C:/vcpkg/packages/zlib_x64-windows/lib/pkgconfig/zlib.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/vcpkg/packages/zlib_x64-windows/debug/lib/pkgconfig/zlib.pc
+-- Installing: C:/vcpkg/packages/zlib_x64-windows/share/zlib/copyright
+-- Performing post-build validation
+Starting submission of zlib:x64-windows@1.3.1 to 1 binary cache(s) in the background
+Elapsed time to handle zlib:x64-windows: 7.2 s
+zlib:x64-windows package ABI: e1764355526e871b3ad2e83b2388ff7cff9e19fbf95cb77c7e166605a71dfec8
+Completed submission of libflac[core,stack-protector]:x64-windows@1.4.3#2 to 1 binary cache(s) in 320 ms
+Installing 22/26 libpng:x64-windows@1.6.46...
+Building libpng:x64-windows@1.6.46...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\0074ace75112e0a4ff3465de21e692c07d6e6b5f: info: installing overlay port from here
+-- Using cached pnggroup-libpng-v1.6.46.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/libpng/src/v1.6.46-0d105c43f9.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/pnggroup-libpng-v1.6.46.tar.gz
+-- Applying patch cmake.patch
+-- Using source at C:/vcpkg/buildtrees/libpng/src/v1.6.46-0d105c43f9.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/vcpkg/packages/libpng_x64-windows/share/png/vcpkg-cmake-wrapper.cmake
+-- Installing: C:/vcpkg/packages/libpng_x64-windows/share/libpng/libpng-config.cmake
+-- Fixing pkgconfig file: C:/vcpkg/packages/libpng_x64-windows/lib/pkgconfig/libpng16.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/vcpkg/packages/libpng_x64-windows/debug/lib/pkgconfig/libpng16.pc
+-- Installing: C:/vcpkg/packages/libpng_x64-windows/debug/lib/pkgconfig/libpng.pc
+-- Installing: C:/vcpkg/packages/libpng_x64-windows/lib/pkgconfig/libpng.pc
+-- Installing: C:/vcpkg/packages/libpng_x64-windows/share/libpng/usage
+-- Installing: C:/vcpkg/packages/libpng_x64-windows/share/libpng/copyright
+-- Performing post-build validation
+Starting submission of libpng:x64-windows@1.6.46 to 1 binary cache(s) in the background
+Elapsed time to handle libpng:x64-windows: 8.6 s
+libpng:x64-windows package ABI: 2ae0098b2750aae5136f4f8b5ef17de6a4461972d729778e94bc172866a8c442
+Completed submission of zlib:x64-windows@1.3.1 to 1 binary cache(s) in 176 ms
+Installing 23/26 bzip2[core,tool]:x64-windows@1.0.8#6...
+Building bzip2[core,tool]:x64-windows@1.0.8#6...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\2d029da682847c5ebdc54e4dbea001331a02207e: info: installing overlay port from here
+-- Using cached bzip2-1.0.8.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/bzip2/src/bzip2-1-336d4794a3.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/bzip2-1.0.8.tar.gz
+-- Applying patch fix-import-export-macros.patch
+-- Using source at C:/vcpkg/buildtrees/bzip2/src/bzip2-1-336d4794a3.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/bzip2_x64-windows/lib/pkgconfig/bzip2.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/vcpkg/packages/bzip2_x64-windows/debug/lib/pkgconfig/bzip2.pc
+-- Installing: C:/vcpkg/packages/bzip2_x64-windows/share/bzip2/copyright
+-- Performing post-build validation
+Starting submission of bzip2[core,tool]:x64-windows@1.0.8#6 to 1 binary cache(s) in the background
+Elapsed time to handle bzip2:x64-windows: 7.5 s
+bzip2:x64-windows package ABI: 8eb245d6a48eda66b9690a5f97bea558938bfef62568363817f2a318afda119c
+Completed submission of libpng:x64-windows@1.6.46 to 1 binary cache(s) in 243 ms
+Installing 24/26 brotli:x64-windows@1.1.0#1...
+Building brotli:x64-windows@1.1.0#1...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\4e5b5ae1ad26c80535c893cc0307121f0398549e: info: installing overlay port from here
+-- Using cached google-brotli-v1.1.0.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/brotli/src/v1.1.0-958bece74c.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/google-brotli-v1.1.0.tar.gz
+-- Applying patch install.patch
+-- Applying patch fix-arm-uwp.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch emscripten.patch
+-- Using source at C:/vcpkg/buildtrees/brotli/src/v1.1.0-958bece74c.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/brotli_x64-windows/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/brotli_x64-windows/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/brotli_x64-windows/lib/pkgconfig/libbrotlienc.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/vcpkg/packages/brotli_x64-windows/debug/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/brotli_x64-windows/debug/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: C:/vcpkg/packages/brotli_x64-windows/debug/lib/pkgconfig/libbrotlienc.pc
+-- Installing: C:/vcpkg/packages/brotli_x64-windows/share/brotli/usage
+-- Installing: C:/vcpkg/packages/brotli_x64-windows/share/brotli/copyright
+-- Performing post-build validation
+Starting submission of brotli:x64-windows@1.1.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle brotli:x64-windows: 20 s
+brotli:x64-windows package ABI: 9cbd21376341d8102559b124d4f99166a725b6fc084340833d2923a4e9f6f7f6
+Completed submission of bzip2[core,tool]:x64-windows@1.0.8#6 to 1 binary cache(s) in 230 ms
+Installing 25/26 freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3...
+Building freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\8a2c633dcc14eaabdb31cf4637242f4e3c2f3fa2: info: installing overlay port from here
+-- Using cached freetype-freetype-VER-2-13-3.tar.gz
+-- Cleaning sources at C:/vcpkg/buildtrees/freetype/src/VER-2-13-3-8b423a038b.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/vcpkg/downloads/freetype-freetype-VER-2-13-3.tar.gz
+-- Applying patch 0003-Fix-UWP.patch
+-- Applying patch brotli-static.patch
+-- Applying patch bzip2.patch
+-- Applying patch fix-exports.patch
+-- Using source at C:/vcpkg/buildtrees/freetype/src/VER-2-13-3-8b423a038b.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/freetype_x64-windows/lib/pkgconfig/freetype2.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/vcpkg/packages/freetype_x64-windows/debug/lib/pkgconfig/freetype2.pc
+-- Installing: C:/vcpkg/packages/freetype_x64-windows/share/freetype/usage
+-- Performing post-build validation
+Starting submission of freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3 to 1 binary cache(s) in the background
+Elapsed time to handle freetype:x64-windows: 15 s
+freetype:x64-windows package ABI: 1d86e333689f5a609873cea5d37bbb71658c441ef96c0e9cbfba048d6bb14ec8
+Completed submission of brotli:x64-windows@1.1.0#1 to 1 binary cache(s) in 903 ms
+Installing 26/26 sfml:x64-windows@2.5.1...
+Building sfml:x64-windows@2.5.1...
+C:\Users\TEMP.SCI.004\AppData\Local\vcpkg\registries\git-trees\cbd65a448eee418c75a45b437122ffc020ad9c73: info: installing overlay port from here
+CMake Warning at scripts/cmake/vcpkg_common_functions.cmake:3 (message):
+  vcpkg_common_functions has been removed and all values are automatically
+  provided in all portfile.cmake invocations.  Please remove
+  `include(vcpkg_common_functions)`.
+Call Stack (most recent call first):
+  C:/Users/TEMP.SCI.004/AppData/Local/vcpkg/registries/git-trees/cbd65a448eee418c75a45b437122ffc020ad9c73/portfile.cmake:2 (include)
+  scripts/ports.cmake:203 (include)
+
+
+Downloading https://github.com/SFML/SFML/archive/2.5.1.tar.gz -> SFML-SFML-2.5.1.tar.gz
+Successfully downloaded SFML-SFML-2.5.1.tar.gz
+-- Extracting source C:/vcpkg/downloads/SFML-SFML-2.5.1.tar.gz
+-- Applying patch use-system-freetype.patch
+-- Using source at C:/vcpkg/buildtrees/sfml/src/2.5.1-8da8c5c259.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/vcpkg/packages/sfml_x64-windows/share/sfml/copyright
+-- Performing post-build validation
+Starting submission of sfml:x64-windows@2.5.1 to 1 binary cache(s) in the background
+Elapsed time to handle sfml:x64-windows: 1.2 min
+sfml:x64-windows package ABI: 7dfabc582617b6e5e05c401308ad83b3a03432baf4fd9824ad98e2ef2dba6b1a
+Total install time: 4.7 min
 sfml provides CMake targets:
 
   # this is heuristically generated, and may not be correct
@@ -64,3 +351,6 @@ sfml provides CMake targets:
   # note: 7 additional targets are not displayed.
   target_link_libraries(main PRIVATE FLAC OpenAL OpenGL Vorbis)
 
+Completed submission of freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3 to 1 binary cache(s) in 557 ms
+Waiting for 1 remaining binary cache submissions...
+Completed submission of sfml:x64-windows@2.5.1 to 1 binary cache(s) in 1.1 s (1/1)

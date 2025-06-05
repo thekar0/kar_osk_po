@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/zlib-x64-windows-1.3.1-051af50e-3ac1-4fde-873e-1a14551ef513",
-  "name": "zlib:x64-windows@1.3.1 224fbcfb0badf3625243666286c30ca081180c4e2747c50c91a0836c1d68eeba",
+  "documentNamespace": "https://spdx.org/spdxdocs/zlib-x64-windows-1.3.1-c16cfb4a-e8d8-4589-a842-40b2e0f7f1fe",
+  "name": "zlib:x64-windows@1.3.1 e1764355526e871b3ad2e83b2388ff7cff9e19fbf95cb77c7e166605a71dfec8",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2025-03-22-d4dd14112c2026ee57e59f966ecfa3b9137bd143"
+      "Tool: vcpkg-2025-03-13-7699e411ea11543de6abc0c7d5fd11cfe0039ae5"
     ],
-    "created": "2025-03-27T14:17:13Z"
+    "created": "2025-06-05T12:46:01Z"
   },
   "relationships": [
     {
@@ -109,7 +109,7 @@
     {
       "name": "zlib:x64-windows",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "224fbcfb0badf3625243666286c30ca081180c4e2747c50c91a0836c1d68eeba",
+      "versionInfo": "e1764355526e871b3ad2e83b2388ff7cff9e19fbf95cb77c7e166605a71dfec8",
       "downloadLocation": "NONE",
       "licenseConcluded": "Zlib",
       "licenseDeclared": "NOASSERTION",
@@ -133,7 +133,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/oskark1c/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch",
+      "fileName": "./C:/Users/TEMP.SCI.004/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -145,7 +145,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/oskark1c/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/0002-build-static-or-shared-not-both.patch",
+      "fileName": "./C:/Users/TEMP.SCI.004/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/0002-build-static-or-shared-not-both.patch",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -157,7 +157,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/oskark1c/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/0003-android-and-mingw-fixes.patch",
+      "fileName": "./C:/Users/TEMP.SCI.004/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/0003-android-and-mingw-fixes.patch",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
@@ -169,7 +169,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/oskark1c/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/portfile.cmake",
+      "fileName": "./C:/Users/TEMP.SCI.004/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/portfile.cmake",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
@@ -181,7 +181,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/oskark1c/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/usage",
+      "fileName": "./C:/Users/TEMP.SCI.004/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/usage",
       "SPDXID": "SPDXRef-file-4",
       "checksums": [
         {
@@ -193,7 +193,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/oskark1c/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/vcpkg-cmake-wrapper.cmake",
+      "fileName": "./C:/Users/TEMP.SCI.004/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/vcpkg-cmake-wrapper.cmake",
       "SPDXID": "SPDXRef-file-5",
       "checksums": [
         {
@@ -205,7 +205,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/oskark1c/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/vcpkg.json",
+      "fileName": "./C:/Users/TEMP.SCI.004/AppData/Local/vcpkg/registries/git-trees/3f05e04b9aededb96786a911a16193cdb711f0c9/vcpkg.json",
       "SPDXID": "SPDXRef-file-6",
       "checksums": [
         {

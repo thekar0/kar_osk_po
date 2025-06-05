@@ -11,6 +11,7 @@ project(sci_po)
 #add_subdirectory(2025_03_06_zad_04)
 #add_subdirectory(2025_03_13_zad_44)
 #add_subdirectory(2025_03_20_zad_34)
+add_subdirectory(2025_05_22_zad_20)
 
 set(VCPKG_SCRIPT "C:\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake")
 

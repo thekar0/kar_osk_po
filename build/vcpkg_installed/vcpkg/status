@@ -3,7 +3,7 @@ Version: 2024-07-29
 Port-Version: 1
 Architecture: x64-windows
 Multi-Arch: same
-Abi: e54733a0034564150db1df2fa959cb1c2ae2f2478584ed4cbda067ac2ba16cd2
+Abi: 2bc67e4e689bf4402a2e418af573c34c2a30b3b515ca228b2780f39d3b134392
 Description: public domain header-only libraries
 Status: install ok installed
 
@@ -11,14 +11,14 @@ Package: vcpkg-cmake-config
 Version: 2024-05-23
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 7eb75b3deecfa82919a042d59a1c86d4e9397075116adf41346d9194152e8daf
+Abi: be302773da5b8021dcec948360519563145626bca3edb0c62b82faaf3d93e722
 Status: install ok installed
 
 Package: vcpkg-cmake
 Version: 2024-04-23
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 6366b23441c38374c3d1188e10f79f2aebb704eaf48f8d143670963a0b369bd3
+Abi: 084abcb47007dea0450e91fbfa9ec6fa4cacc8ab36289a1fe9bfbd7abc968f55
 Status: install ok installed
 
 Package: openal-soft
@@ -26,7 +26,7 @@ Version: 1.24.2
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: eec1f6617a1684c0767f8f3069507d7b48b04e5e336896b32c0f60544b4066e4
+Abi: 6dc50926e4aa3a049ec52be31c804e013f2aabb300a3a07f85f01aa2433ccd54
 Description: OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.
 Status: install ok installed
 
@@ -36,7 +36,7 @@ Port-Version: 2
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 74e484926ef9cc8d050c921e7bdd46c90fa643fae316955aa15dc65262be2fb8
+Abi: eca5e1e95635857f5775a1f153ebcfb2bbb10cd56214478cf4d6961fed97513a
 Description: Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
 Status: install ok installed
 
@@ -46,7 +46,7 @@ Port-Version: 3
 Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: ba8b9781f8bd1e90faceb67ceb56264ce9d863c5d0532be92daa249559b2561e
+Abi: a5fd35d10616753b4e564ec81d14afbeae63b833e36210efa51026e8c1a65b88
 Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
 Status: install ok installed
 
@@ -56,7 +56,7 @@ Port-Version: 2
 Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: b3f1c81d01971708f4211ac4f6f695732d6442cc2bde1b7ff3bdd1e6fba4d52c
+Abi: e0a80951559fb28f2819f27bddbebc428cb3dcd92a7e5052c49486843912a6f9
 Description: Library for manipulating FLAC files
 Default-Features: stack-protector
 Status: install ok installed
@@ -73,7 +73,7 @@ Version: 1.3.1
 Depends: vcpkg-cmake
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 224fbcfb0badf3625243666286c30ca081180c4e2747c50c91a0836c1d68eeba
+Abi: e1764355526e871b3ad2e83b2388ff7cff9e19fbf95cb77c7e166605a71dfec8
 Description: A compression library
 Status: install ok installed
 
@@ -82,7 +82,7 @@ Version: 1.6.46
 Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
 Architecture: x64-windows
 Multi-Arch: same
-Abi: d19298e2c7a57b9f3338090215c62b9783a95990f80600e49bbd548e3063240b
+Abi: 2ae0098b2750aae5136f4f8b5ef17de6a4461972d729778e94bc172866a8c442
 Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
 Status: install ok installed
 
@@ -92,7 +92,7 @@ Port-Version: 6
 Depends: vcpkg-cmake
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 6242abaee7484ad3a99848e222e1aff07fae21882399ce0fea492d38ea3abf2f
+Abi: 8eb245d6a48eda66b9690a5f97bea558938bfef62568363817f2a318afda119c
 Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
 Default-Features: tool
 Status: install ok installed
@@ -110,7 +110,7 @@ Port-Version: 1
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 3f59b7c050d79978ef9b79059092632fd05ed4fec72496057898bb5141584317
+Abi: 9cbd21376341d8102559b124d4f99166a725b6fc084340833d2923a4e9f6f7f6
 Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
 Status: install ok installed
 
@@ -119,7 +119,7 @@ Version: 2.13.3
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 5cd8693e5e29a97939803590f07154dafb45f4d9d4d614323f92c95756050502
+Abi: 1d86e333689f5a609873cea5d37bbb71658c441ef96c0e9cbfba048d6bb14ec8
 Description: A library to render fonts.
 Default-Features: brotli, bzip2, png, zlib
 Status: install ok installed
@@ -161,7 +161,7 @@ Version: 2.5.1
 Depends: freetype, libflac, libogg, libvorbis, openal-soft, stb
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 6bfd8163108395f1c4161924e20063786261f72e3a735e0119ed4fb989a8f312
+Abi: 7dfabc582617b6e5e05c401308ad83b3a03432baf4fd9824ad98e2ef2dba6b1a
 Description: Simple and fast multimedia library
 Status: install ok installed
 

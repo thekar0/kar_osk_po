@@ -1,5 +1,4 @@
-C:/Users/oskark1c/Desktop/kar_osk_po/build/CMakeFiles/edit_cache.dir
-C:/Users/oskark1c/Desktop/kar_osk_po/build/CMakeFiles/rebuild_cache.dir
-C:/Users/oskark1c/Desktop/kar_osk_po/build/sci_sfml/CMakeFiles/sci_sfml.dir
-C:/Users/oskark1c/Desktop/kar_osk_po/build/sci_sfml/CMakeFiles/edit_cache.dir
-C:/Users/oskark1c/Desktop/kar_osk_po/build/sci_sfml/CMakeFiles/rebuild_cache.dir
+C:/Users/TEMP.SCI.004/Desktop/kar_osk_po/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/TEMP.SCI.004/Desktop/kar_osk_po/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/TEMP.SCI.004/Desktop/kar_osk_po/build/2025_05_22_zad_20/CMakeFiles/2025_05_22_zad_20.dir
+C:/Users/TEMP.SCI.004/Desktop/kar_osk_po/build/sci_sfml/CMakeFiles/sci_sfml.dir
